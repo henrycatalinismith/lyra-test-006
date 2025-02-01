@@ -1,0 +1,3103 @@
+core:
+  err404:
+    backToHomePage: Tilbake til startsiden
+    pageNotFound: Fant ikke siden
+  home:
+    redirecting: Omdirigerer...
+    welcome: Her kommer Zetkin
+  legacy:
+    continueButton: Tilbake til gammel versjon av Zetkin
+    header: Du blir videresendt
+    info:
+      Du bruker en uferdig versjon av Zetkin som ikke støtter den funksjonen du
+      vil bruke, du blir videresendt til den gamle versjonen av Zetkin som støtter
+      denne funksjonen.
+feat:
+  breadcrumbs:
+    elements:
+      activities: Aktiviteter
+      archive: Arkiv
+      areas: Områder
+      assignees: Kontaktpersoner
+      calendar: Kalender
+      callassignments: Ringeoppdrag
+      callers: Ringere
+      campaigns: Prosjekter
+      canvassassignments: Dør til dør oppdrag
+      closed: Stengt
+      compose: Utforming
+      conversation: Samtale
+      duplicates: Duplikater
+      emails: E-post
+      events: Arrangementer
+      folders: Lister
+      incoming: Innkommende
+      insights: Analyse
+      instances: Forekomster
+      joinforms: Innmeldingsskjema
+      journeys: Planer
+      manage: Behandle
+      milestones: Oppfølging
+      new: Ny
+      organize: Organiser
+      participants: Deltakere
+      people: Folk
+      plan: Plan
+      projects: Prosjekter
+      questions: Spørsmål
+      settings: Innstillinger
+      shared: Delt med oss
+      submissions: Svar
+      surveys: Spørreundersøkelser
+      tags: Etiketter
+      tasks: App-innhold
+      untitledEvent: Arrangement uten tittel
+      views: Lister
+  calendar:
+    createMenu:
+      shiftEvent: Opprett flere arrangementer som blir til skift
+      singleEvent: Nytt arrangement
+    dstEnds: Vintertid
+    dstStarts: Sommertid
+    event:
+      differentLocations: "{numLocations} ulike steder"
+      events: Arrangementer
+      noContactSelected: Ingen kontakt valgt
+      remindersNotSent: "{numNotSent} Påminnelser ikke sendt"
+      unbookedSignups: "{numUnbooked} Uregistrerte påmeldinger"
+      underbooked: "{numUnderbooked} Arrangementer med få påmeldinger"
+      withSignups: "{numWithSignups} Med påmeldinger"
+      withoutContact: "{numWithoutContact} Uten kontakt"
+    eventFilter:
+      collapse: Skjul
+      expand: "{numOfOptions, plural, one {+ 1 type til} other {+ # typer til}}"
+      filter: Filtrer
+      filterOptions:
+        actionFilters:
+          missing: Mangler kontaktperson
+          overbooked: For mange registrerte
+          pending: Påmeldinger
+          title: Handling kreves
+          underbooked: For få registrerte
+          unsent: Usendte varsler
+        eventTypes:
+          title: Type arrangement
+        stateFilters:
+          cancelled: Avlyst
+          draft: Utkast
+          published: Publisert
+          scheduled: Planlagt
+          title: Publiseringsstatus
+      reset: Fjern filter
+      toggle:
+        all: Alle
+        none: Ingen
+      type: Skriv for å filtrere innhold
+    lastDayWithEvents:
+      Det {numEvents, plural, one {var ett arrangement} other {var
+      {numEvents} arrangementer}} på siste aktive dag
+    loadMore: Vis fler
+    moreEvents: "{numEvents, plural, one {# til arrangement} other {# til arrangementer}}"
+    next: NESTE
+    prev: FORRIGE
+    rangeLabel: Velg et alternativ
+    ranges:
+      day: Dag
+      month: Måned
+      week: Uke
+    selectionBar:
+      copy: Kopier
+      deselect: Ikke velg
+      editEvents: Rediger arrangementer
+      editParticipants: Behandle deltakere
+      ellipsisMenu:
+        cancel: Avlys
+        cancelWarning:
+          Hvis ja, husk å varsle alle deltakere om at arrangementet er
+          avlyst!
+        confirmCancel: Er du sikker på at du vil avlyse de valgte arrangementene?
+        confirmDelete: Er du sikker på at du vil slette de valgte arrangementene?
+        delete: Slett
+        deleteWarning: Når arrangementene er slettet kan du ikke angre.
+        print: Skriv ut timeplan
+        publish: Publiser
+        unpublish: Avpubliser
+      move: Flytt
+      moveCopyButtons:
+        copy: Kopier
+        copyMenuHeader: Kopier {numberOfEvents} arrangementer til
+        createShift: Etter hvert arrangement (legg til et skift)
+        duplicate: Samme tid og dato (dupliser)
+        move: Flytt
+        moveMenuHeader: Flytt {numberOfEvents} arrangementer til
+        nextDay: Neste dag {dates}
+        nextWeek: Neste uke {dates}
+    shortWeek: uke {weekNumber}
+    showMore: Vis
+    today: I dag
+  callAssignments:
+    actions:
+      delete: Slett
+      end: Avslutt oppdrag
+      start: Start oppdrag
+      warning: '"{title}" blit slettet'
+    blocked:
+      callBackLater: Ba om å bli oppringt senere
+      calledTooRecently: Ringt for kort tid siden
+      cooldownHelperText:
+        Velg hvor lang tid det skal gå mellom hvert forsøk på å
+        nå et mål
+      cooldownLabel: Ventetid i timer
+      hours: "{cooldown, plural, =0 {None} =1 {# time} other {# timer}}"
+      missingPhoneNumber: Mangler telefonnummer
+      organizerActionNeeded: Må følges opp av koordinator
+      subtitle: Folk som ikke er klare til å ringes
+      title: Blokkert
+      viewSheetButton: Vis alle
+    callers:
+      actions:
+        customize: Tilpass køen
+        remove: Fjern fra oppdrag
+      add:
+        alreadyAdded: Lagt til tidligere
+        placeholder: Begynn å skrive for å søke eller legge til en ny ringer
+      customize:
+        exclude:
+          h: Utelukkede etiketter
+          intro: Aldri ring folk med disse etikettene.
+        prioritize:
+          h: Prioriterte etiketter
+          intro: Ring til folk med disse etikettene først.
+        title: Tilpass køen til {name}
+      customizeButton: Tilpass
+      excludedTagsColumn: Utelukkede tags
+      nameColumn: Navn
+      prioritizedTagsColumn: Prioriterte tags
+      searchBox: Søk
+      title: Ringere
+    conversation:
+      instructions:
+        confirm:
+          Vil du slette all ulagrede endringer og gå tilbake til de lagrede
+          instruksene?
+        editorPlaceholder: Legg til instruks for ringere
+        revertLink: Tilbakestill til lagret versjon?
+        saveButton: Lagre
+        savedMessage: Alt er oppdatert!
+        savingButton: Lagrer...
+        title: Instruks for ringere
+        unsavedMessage: Du har gjort endringer som ikke er lagret.
+      settings:
+        notes:
+          message:
+            Hvis du skrur av ringenotater kan ringingen gå fortere, men informasjon
+            kan gå tapt.
+          title: La ringere lagre notater
+        targetData:
+          message:
+            Navn og telefonnummer til folk som skal ringes er alltid synlig
+            for ringere. Hvis du skrur på utvidede opplysninger får ringerne se all
+            informasjonen som finnes om den de skal ringe.
+          title: Vis utvidede opplysninger om folk som skal ringes
+        title: Samtaleinnstillinger
+    done:
+      defineButton: Rediger kriterier for fullføring
+      subtitle: Folk som oppfyller fullføringskriteriene
+      title: Ferdig
+    insightsHeader: Oppringinger og samtaler
+    organizerActionPane:
+      markAsSolved: Merk som løst
+      markAsUnsolved: Merk som uløst
+      messagePlaceholder: Ringeren la ikke igjen melding
+      noteByCaller: Notat fra {person} {time}
+      subtitle: Notat om {person}
+      title: Må følges opp av koordinator
+    ready:
+      allocated: Folk som er tildelt en ringer
+      queue: Folk som er i kø
+      subtitle: Folk som skal ringes
+      title: Klar
+    state:
+      active: Aktiv
+      closed: Stengt
+      draft: Utkast
+      open: Åpen
+      scheduled: Planlagt
+    stats:
+      callers: "{numCallers, plural, =0 {Ingen ringere} one {En ringer} other {# ringere}}"
+      targets:
+        "{numTargets, plural, =0 {Ingen i målgruppa} one {En person i målgruppa}
+        other {# folk i målgruppa}}"
+    statusSectionTitle: Status
+    tabs:
+      callers: Ringere
+      conversation: Samtale
+      insights: Analyse
+      overview: Oversikt
+    targets:
+      defineButton: Velg målgruppe
+      editButton: Rediger målgruppe
+      subtitle: Bruk smartsøk til å definere målgruppa for dette oppdraget
+      title: Folk i målgruppa
+  campaigns:
+    activitiesOverview:
+      button: Se alle aktiviteter
+      empty: Ingen ting på denne dagen
+      endsTomorrow: Avsluttes i morgen
+      extraActivities: + {numExtra} fler
+      goToActivities: Se alle kommende aktiviteter
+      noActivities: Ingen aktiviteter denne uka
+      nothingTomorrow: Ingen ting planlagt for i morgen
+      startsTomorrow: Begynner i morgen
+      subtitles:
+        endsLater: Avsluttes {relative}
+        endsToday: Avsluttes i dag
+        sentEarlier: Ble sendt {relative}
+        sentLater: Blir sendt {relative}
+        startsLater: Begynner {relative}
+        startsToday: Begynner i dag
+      thisWeekCard: Denne uka
+      title: Aktiviteter
+      todayCard: I dag
+      tomorrowCard: I morgen
+    activityList:
+      eventItem:
+        contact: Ingen kontaktperson tildelt
+        locations: "{count} steder"
+        reminders:
+          "{numMissing, plural, =1 {En deltaker} other {# deltakere}} har
+          ikke fått varsel"
+        signups: Uregistrerte påmeldinger finnes
+    all:
+      cardCTA: Gå til prosjekt
+      create: Nytt prosjekt
+      filter:
+        calls: Ringeoppdrag
+        canvasses: Dørbanking
+        emails: E-poster
+        filter: Filtrer resultater
+        standalones: Frittstående arrangementer
+        surveys: Spørreundersøkelser
+      heading: Pågående prosjekter
+      indefinite: Uten sluttdato
+      unsorted: Usorterte prosjekter
+      upcoming: "{numEvents, number} kommende arrangementer."
+    allProjects:
+      linkToSummary: Gå til mine aktive prosjekter
+      noActivities:
+        Hvis organisasjonen din har aktiviteter som ikke tilhører et prosjekt
+        vises de her.
+      viewArchive: Vis arkiv
+    assigneeActions: Klikk i appen
+    calendarView: Se alle i kalender
+    createButton:
+      createActivity: Opprett
+      createCallAssignment: Ringeoppdrag
+      createCanvassAssignment: Dør til dør oppdrag
+      createEmail: E-post
+      createEvent: Arrangement
+      createSurvey: Spørreundersøkelse
+      createTask: App-innhold
+    events: Arrangementer
+    feedback:
+      copy: Innsamling av tilbakemeldinger kan hjelpe deg å arbeide mer effektivt.
+      create: Ny spørreundersøkelse
+      heading: Tilbakemeldinger og spørreundersøkelser (ingen satt opp)
+    form:
+      createCallAssignment:
+        newCallAssignment: Mitt ringeoppdrag
+      createCampaign:
+        create: Nytt prosjekt
+        error: Kunne ikke opprette prosjektet
+        newCampaign: Mitt prosjekt
+      createCanvassAssignment:
+        defaultQuestion: Fullførte du oppdraget?
+      createEmail:
+        newEmail: E-post uten tittel
+      createSurvey:
+        newSurvey: Min spørreundersøkelse
+      createTask:
+        title: Ny oppgave
+      deleteCampaign:
+        cancel: Avbryt
+        error: Kunne ikke slette prosjektet
+        submitButton: Bekreft sletting
+        title: Slett prosjekt
+        warning: Er du sikker på at du vil slette dette prosjektet? Kan ikke angres.
+      description: Beskrivelse
+      edit: Rediger prosjekt
+      editCampaignTitle:
+        error: Kunne ikke oppdatere prosjektnavnet
+        success: Prosjektnavn oppdatert
+      manager:
+        label: Prosjektansvarlig
+        selectSelf: Sett deg selv som ansvarlig
+      name: Navn
+      requestError: Noe gikk galt, forsøk gjerne igjen.
+      required: Påkrevd
+      status:
+        draft: Utkast
+        heading: Status
+        published: Publisert
+      visibility:
+        heading: Synlighet
+        private: Privat
+        public: Offentlig
+    indefinite: Uten sluttdato
+    layout:
+      activities: Aktiviteter
+      allCampaigns: Alle prosjekter
+      archive: Arkiv
+      calendar: Kalender
+      insights: Analyse
+      overview: Oversikt
+    linkGroup:
+      createActivity: Ny aktivitet
+      createCallAssignment: Nytt ringeoppdrag
+      createCanvassAssignment: Dør til dør oppdrag
+      createEmail: Ny e-post
+      createEvent: Nytt arrangement
+      createSurvey: Ny spørreundersøkelse
+      createTask: Nytt app-innhold
+      public: Offentlig side
+      settings: Endre innstillinger
+    mobilization:
+      copy:
+        Ringeaksjoner for å mobilisere organisasjonen din vil øke deltakelsen
+        til medlemmene mye
+      create: Nytt ringeoppdrag
+      heading: Mobilisering og kontakt (ingen satt opp)
+    noManager: Ingen prosjektansvarlig
+    shared:
+      cta: Gå til prosjekt
+      noActivities:
+        Alle pågående aktiviteter som er delt med organisasjonen din vil
+        vises her.
+      noArchives:
+        Alle tidligere aktiviteter som har blitt delt med organisasjonen
+        din vil vises her.
+      title: Delt med oss
+    sharedLayout:
+      alertMsg:
+        Dette prosjektet inneholder bare aktiviteter som er delt fra en annen
+        organisasjon, du kan se dem men ikke endre dem.
+      subtitle: "{numOfActivities, plural, =1 {En aktivitet} other {# aktiviteter}}"
+      tabs:
+        activities: Aktiviteter
+        archive: Arkiv
+        overview: Oversikt
+      title: Delt med oss
+    singleProject:
+      filterActivities: Skriv her for å filtrere
+      noActivities: Det er ingen aktiviteter i dette prosjektet ennå.
+      noSearchResults: Filtreringen gav ingen resultater.
+      showPublicPage: Vis påmeldingssiden
+      viewArchive: Vis arkiv
+    taskLayout:
+      tabs:
+        assignees: Mottakere
+        insights: Analyse
+        summary: Oppsummering
+    tasks: Innhold
+  duplicates:
+    modal:
+      cancelButton: Avbryt
+      fieldSettings:
+        data: Informasjon
+        field: Felt
+        gender:
+          f: Kvinne
+          m: Mann
+          o: Annet
+        noValue: Ingen
+        title: Informasjon som skal slås sammen
+      findCandidateManually: Skriv for å finne mulige duplikater
+      infoMessage:
+        All aktivitet og alle etiketter fra personer som slås sammen blir
+        bevart og synlig på den sammenslåtte personen
+      infoTitle: Ingen informasjon vil gå tapt
+      isDuplicateButton: Inkludér
+      lists:
+        hideManual: Skjul manuelt søk
+        showManual: Vis manuelt søk
+      mergeButton: Slå sammen
+      notDuplicateButton: Utelukk
+      peopleNotBeingMerged: Folk som ikke blir slått sammen
+      peopleToMerge: Folk som blir slått sammen
+      possibleDuplicatesColumns:
+        email: E-post
+        name: Navn
+        phone: Telefonnummer
+      title: Slå sammen duplikater
+      warningMessage:
+        Alle opplysninger knytta til personenen blir overført til den
+        sammenslåtte personen, dette inkluderer deltakelse på arrangementer, besvarte
+        spørreundersøkelser, etiketter, etc. Informasjonene i feltene du forkaster
+        blir slettet.
+      warningTitle: Risiko for tap av informasjon
+    page:
+      dismiss: Se bort fra
+      noDuplicates: Ingen duplikater
+      noDuplicatesDescription:
+        Hurra! alle folkene i organisasjonen ser ut til å være
+        unike individer.
+      possibleDuplicates: Mulige duplikater
+      possibleDuplicatesDescription: Disse {numPeople} folkene ser veldig like ut
+      resolve: Løs
+  emails:
+    blocked:
+      blacklisted: Svartelistet
+      missingEmail: Mangler e-postadresse
+      subtitle: Utilgjengelige mottakere
+      title: Blokkert
+      unsubscribed: Meldt seg av
+    deliveryProblems:
+      contentError:
+        Det er problemer med innholdet i e-posten, gå til Utforming for
+        å rette dem opp.
+      empty: E-posten er tom, gå til Utforming for å legge til noe.
+      noSubject:
+        E-posten har ikke emnefelt, få til Innstillinger i Utforming for
+        å legge til emne.
+      notTargeted:
+        E-posten har ingen mottakere, gå til Målgruppe i Oversikt for å
+        lage et smartsøk som definerer mottakere.
+      targetsNotLocked: Målgruppa er ikke låst. Gå til Klar i Oversikt for å låse.
+    deliveryStatus:
+      notLocked: Ikke låst, ikke planlagt
+      notProcessed: Planlagt sendt så raskt som mulig
+      notScheduled: Ikke planlagt
+      wasSent: Sendt {datetime}
+      willSend: Sendes {datetime}
+    editor:
+      readOnlyModeInfo:
+        Denne e-posten kan ikke redigeres, enten fordi den er planlagt
+        eller har blitt sendt. Hvis den er planlagt og du vil redigere den må du avbryte
+        sendingen først.
+      settings:
+        tabs:
+          content: Innhold
+          preview:
+            confirmation: En forhåndsvisning har blitt sendt til din e-postadresse.
+            instructions:
+              Her kan du sende denne e-posten til deg selv for å se hvordan
+              den vil se ut for mottakerne.
+            okButton: OK!
+            sendButton: Send
+            sendTo: "E-posten blir sendt til denne adressen:"
+            title: Forhåndsvisning
+          settings:
+            senderAddressInputLabel: Avsenderadresse
+            senderNameInputLabel: Avsendernavn
+            subjectInputLabel: Emne
+            title: Innstillinger
+      tools:
+        button:
+          block:
+            noButtonText: Klikk for å endre denne teksten!
+          settings:
+            invalidUrl: Denne lenken er ikke gyldig
+            testLink: Klikk for å teste lenken
+            urlLabel: Lenkeadresse
+          title: Knapp
+        header:
+          title: Overskrift
+        libraryImage:
+          changeImage: Endre bilde
+          title: Bilde
+        link:
+          addUrl: Legg til lenke
+          invalidUrl: Dette er ikke en gyldig lenke
+          testLink: Klikk for å teste lenken
+          title: Lenke
+        paragraph:
+          invalidUrls: Det er en eller flere ugyldige lenker i denne tekstblokken.
+          title: Tekst
+        variable:
+          title: Variabel
+    emailActionButtons:
+      cancel: Avbryt
+      delete: Slett
+      delivery: Levering
+      deliveryDate: Leveringsdato
+      deliveryTime: Leveringstidspunkt
+      duplicate: Kopier
+      schedule: Planlegg
+      sendAnyway: Send likevel
+      sendLater: Send senere
+      sendNow:
+        alert:
+          desc:
+            Det kan være et annet tidspunkt som er bedre for å sende. Hvis du
+            planlegger utsending gir du også andre tillitsvalgte og ansatte muligheten
+            til å koordinere med dine planer.
+          title: Å sende med en gang er ikke nødvendigvis best
+        header: Send nå
+      setDate: Velg leveringsdato for å fortsette
+      timeZone: Tidssone
+      warning:
+        Er du sikker på at du vil slette e-posten? Handlingen er permanent
+        og kan ikke angres.
+    emailFeatureIsBlocked:
+      errorMessage: Organisasjonen din har ikke tilgang til å sende e-post.
+      goBackButton: Gå tilbake
+    insights:
+      clicked:
+        descriptions:
+          ctor:
+            Klikk til åpningsrate (CTOR - click-to-open-rate) er andelen av de
+            som åpnet e-posten som også klikket på en lenke i den. En høy klikk til
+            åpningsrate er et tegn på en smart definert målgruppe og god tekst.
+          ctr:
+            Klikkfrekvens (CTR - clickthrough rate) er den andelen av mottakerne
+            som både åpnet e-posten og klikket på en av lenkene i den. En høy klikkfrekvens
+            er et tegn på en smart definert målgruppe og god tekst.
+        gauge:
+          headers:
+            ctor: CTOR
+            ctr: CTR
+        header: Klikket
+        metrics:
+          ctor: CTOR
+          ctr: CTR
+      comparison:
+        label: Sammenlign med
+      opened:
+        chart:
+          afterSend: Etter den ble sendt
+          opened: "{count} åpnet"
+          spans:
+            allTime: All tid
+            first24: Første 24 timer
+            first48: Første 48 timer
+            firstMonth: Første 30 dager
+            firstWeek: Første 7 dager
+        description:
+          Åpningsrate er prosentandelen av mottakerne som åpnet e-posten.
+          En høy rate betyr ofte at målgruppa er riktig og at emnefeltet i e-posten
+          var godt skrevet.
+        gauge:
+          header: Åpningsrate
+        header: Åpnet
+    ready:
+      loading: Laster...
+      lockButton: Lås for levering
+      lockDescription: Lås for å gjøre klar til levering
+      locked: Låst
+      missingEmailsDescription:
+        Det {numPeople, plural, one {er en person} other {er
+        folk}} som mangler e-postadresse i målgruppa. Hvis du retter det opp vil de
+        bli inkludert i målgruppa.
+      scheduledDescription:
+        Denne e-posten er planlagt, hvis du vil låse opp målgruppa
+        må du avbryte levering først.
+      sentSubtitle: Mottakere som var tilgjengelige for levering
+      subtitle: Mottakere som er tilgjengelige for levering nå
+      title: Klar
+      unlockButton: Lås opp
+      unlockDescription:
+        Fortsett til levering eller lås opp mottakere for å redigere
+        målgruppa. Hvis du låser opp kan målgruppa bli større eller mindre basert
+        på hva smartsøket finner.
+    state:
+      draft: Utkast
+      scheduled: Planlagt
+      sent: Sendt
+    stats:
+      lockedTargets:
+        "{numLocked, plural, =0 {Ingen låste mottakere} one {En låst
+        mottaker} other {# låste mottakere}}"
+      targets:
+        "{numTargets, plural, =0 {Ingen mottakere} one {En mottaker} other
+        {# mottakere}}"
+    tabs:
+      compose: Utforming
+      insights: Innsikt
+      overview: Oversikt
+    targets:
+      defineButton: Velg målgruppe
+      editButton: Rediger målgruppe
+      loading: Laster...
+      lockButton: Lås for levering
+      locked: Mottakerne er låst for levering
+      lockedChip: Låst
+      sentSubtitle:
+        Du kan se smartsøket som ble brukt til å velge mottakerne av denne
+        e-posten
+      title: Mottakere
+      unlockAlert:
+        Hvis du låser opp kan det bli færre eller flere folk i målgruppa,
+        basert på det dynamiske smartsøket.
+      unlockButton: Lås opp
+      viewButton: Se målgruppe
+    unsubscribePage:
+      consent: Jeg forstår
+      h: Meld meg av e-post fra {org}
+      info:
+        Når du melder deg av vil du ikke lenger motta de fleste e-postene fra
+        denne organisasjonen. Du kan fremdeles motta påminnelser dersom du er påmeldt
+        arrangementer eller gjør annet arbeid for organisasjonen. Du vil fremdeles
+        motta e-post om kontingentbetaling.
+      unsubButton: Meld meg av
+    unsubscribedPage:
+      h: Du er meldt av!
+      info: Du har blitt meldt av nyhetsbrev fra {org}.
+    varDefaults:
+      target: leser
+  events:
+    addPerson:
+      addButton: Legg til person
+      addPlaceholder: Begynn å skrive for å legge til deltaker
+      status:
+        booked: Allerede registrert
+        signedUp: Påmeldt
+    common:
+      allDay: Hele dagen
+      noActivity: Ukategorisert
+      noLocation: Ingen fysisk plassering
+      noTitle: Arrangement uten tittel
+    eventActionButtons:
+      cancel: Avlys
+      delete: Slett
+      duplicate: Kopier
+      move: Flytt
+      publish: Publiser
+      restore: Gjenopprett
+      unpublish: Avpubliser
+      warning: '"{eventTitle}" vil bli slettet.'
+      warningCancel: '"{eventTitle}" vil bli avlyst.'
+      warningRestore: '"{eventTitle}" vil bli gjenopprettet.'
+    eventChangeCampaignDialog:
+      dialogTitle: Flytt arrangement
+      error: "Feil: Kunne ikke flytte arrangementet til det valgte prosjektet"
+      moveButtonLabel: Flytt
+      success: Arrangementet ble flyttet til "{campaignTitle}"
+    eventContactCard:
+      header: Kontakt
+      noContact: Ingen kontaktperson tildelt!
+      removeButton: Fjern
+      selectPlaceholder: Velg en kontaktperson
+      warningText:
+        "{name} vil ikke lenger være kontaktpersonen, men er fortsatt registrert
+        som deltaker."
+    eventOverviewCard:
+      buttonEndDate: + Sluttdato
+      createLocation: Nytt sted
+      description: Beskrivelse
+      editButton: Rediger
+      endDate: Slutt
+      endTime: Sluttidspunkt
+      location: Sted
+      noLocation: Ingen fysisk plassering
+      startDate: Start
+      startTime: Starttidspunkt
+      url: Lenke
+    eventParticipantsCard:
+      booked: Varsler
+      confirmed: Bekreftet deltakelse
+      contact: Kontakt
+      header: Deltakere
+      noContact: Ingen tildelt
+      notifications: Varsler
+      participantList: Se deltakere
+      pending: Påmeldinger
+      reqParticipantsHelperText: Minimum antall deltakere
+      reqParticipantsLabel: Påkrevde deltakere
+    eventParticipantsList:
+      attendance: Deltakelse
+      bookedParticipants: Registrerte deltakere
+      buttonAttended: Deltok
+      buttonBook: Registrer
+      buttonCancel: Avmeld
+      buttonCancelled: Avmeldt
+      buttonDelete: Slett
+      buttonNoshow: Ikke møtt
+      cancelledParticipants: Avmeldte deltakere
+      columnEmail: E-post
+      columnName: Navn
+      columnNotified: Varslet
+      columnPhone: Telefon
+      contactTooltip: Kontaktperson
+      descriptionBooked:
+        Dette er de som er registrert og som du stoler på at møter
+        opp. For å avmelde seg må de kontakte deg så du kan melde dem av manuelt.
+      descriptionCancelled:
+        Disse har avmeldt seg selv, vi viser dem her så du ikke
+        forsøker å registrere dem på nytt.
+      descriptionSignups:
+        Disse har meldt seg på i aktivistportalen, de kan fortsatt
+        avmelde seg når som helst.
+      dropDownAttended: Bekreftet deltakelse
+      dropDownNoshow: Møtte ikke opp
+      participantTooltip: Gjør til kontaktperson
+      signUps: Påmeldinger
+    eventPopper:
+      backToEvents: Tilbake til arrangementliste
+      backToLocations: Tilbake til steder
+      backToShifts: Tilbake til skiftliste
+      booked: Registrert
+      cancel: Avlys
+      cancelWarning:
+        Husk å varsle alle som er registrert eller påmeldt om at arrangementet
+        avlyses.
+      confirmCancel: Er du sikker på at du vil avlyse dette arrangementet?
+      confirmDelete: Er du sikker på at du vil slette dette arrangementet?
+      contactPerson: Kontaktperson
+      dateAndTime: Dato og tid
+      delete: Slett
+      deleteWarning: Når arrangementet er slettet har du ikke lenger tilgang til det.
+      description: Beskrivelse
+      duplicate: Kopier
+      eventPageLink: Gå til arrangementsiden
+      events: Arrangementer
+      location: Sted
+      locations: Steder
+      multiEvent: Flere arrangementer
+      multiLocation: Arrangement med flere steder
+      multiShift: Arrangement med flere skift
+      noContact: Ingen kontaktperson valgt
+      notified: Varslet
+      pendingSignups: Det er uregistrerte påmeldinger
+      publish: Publiser
+      reminded: Fått varsel
+      shifts: Skift
+      signups: Påmeldinger
+      unsentReminders:
+        "{numMissing, plural, =1 {En deltaker} other {# deltakere}}
+        har ikke fått varsel"
+    eventRelatedCard:
+      header: Relaterte arrangementer
+    eventShiftModal:
+      addShift: Legg til skift
+      customTitle: Egendefinert tittel
+      date: Dato
+      description: Beskrivelse
+      draft: Utkast
+      end: Slutt
+      event: Arrangement
+      eventDuration: Varighet
+      header: Opprett arrangement med flere skift
+      hours: "{no, plural, one {En time} other {# timer}}"
+      hoursShort: t
+      invalidDate: Ugyldig dato
+      invalidTime: Ugyldig tid
+      link: Lenke
+      location: Sted
+      minutes: "{no, plural, one {Ett minutt} other {# minutter}}"
+      minutesShort: min
+      noEvents: Dette vil opprette {no} arrangementer
+      noTitle: Arrangement med flere skift uten tittel
+      participation: Deltakelse
+      participationDescription: Ønsket antall deltakere per skift
+      publish: Publiser
+      reset: Tilbakestill
+      shiftDuration: Varighet på skift
+      shiftStart: Start skift {no}
+      shifts: "{no, plural, one {1 skift} other {# skift}}"
+      shiftsHeader: Skift
+      showMoreSettingsButton: Fler innstillinger
+      start: Start
+      type: Type
+    eventStatus:
+      cancelled: Avlyst
+      draft: Utkast
+      ended: Avsluttet
+      open: Åpen
+      scheduled: Planlagt
+      unknown: Ukjent
+    form:
+      activity: Aktivitet
+      campaign: Kampanje
+      cancel: Avlys
+      create: Nytt arrangement
+      edit: Rediger arrangement
+      end: Slutttidspunkt
+      info: Informasjon ved registrering
+      link: Lenke
+      minNo: Minimum antall deltakere
+      place: Sted
+      required: Påkrevd
+      start: Starttidspunkt
+      submit: Send inn
+      title: Tittel
+    list:
+      events: Arrangementer
+      noEvents: Ingen arrangementer...
+    locationModal:
+      cancel: Avlys
+      createLocation: Nytt sted
+      description: Beskrivelse
+      infoText:
+        Klikk på kartet for å lage et nytt sted. Klikk og dra for å flytte
+        kartet, zoom med scroll eller berøringsskjerm.
+      move: Flytt
+      moveInstructions: Flytt tegnestiften for å velge sted.
+      noDescription: Ingen beskrivelse
+      noRelatedEvents: Det er ingen arrangementer i nærheten på dette tidspunktet.
+      relatedEvents: Andre arrangementer i nærheten rundt dette tidspunktet
+      save: Lagre
+      saveLocation: Lagre sted
+      searchBox: Finn sted
+      title: Navn
+      useLocation: Bruk sted
+    participantSummaryCard:
+      bookButton: Registrer alle
+      booked: Varsler
+      cancelled: Avmeldte
+      confirmed: Bekreftet deltakelse
+      header: Deltakere
+      noshow: ({noshows, plural, =1 {1 ikke møtt} other {# ikke møtt}})
+      pending: Påmeldinger
+      recordButton: Registrer deltakelse
+      remindButton: Send varsel til alle
+      remindButtondisabledTooltip: Du må velge en kontaktperson før du sender varsler
+      reqParticipantsHelperText: Minimum antall deltakere som trengs
+      reqParticipantsLabel: Deltakere
+    participantsModal:
+      affected:
+        empty:
+          Du har ikke gjort noen endringer. Velg et arrangement for å flytte
+          deltakere.
+        header: Påvirkede folk
+      discardButton: Forkast endringer
+      emptyStates:
+        booked:
+          Ingen har blitt registrert på dette arrangementet. Du kan legge til
+          deltakere fra de som er tilgjengelige.
+        pending:
+          Det er ingen tilgjengelige deltakere. Flytt deltakere fra et arrangement
+          for å gjøre dem tilgjengelige.
+      participants:
+        buttons:
+          addBack: Flytt tilbake
+          addHere: Legg til her
+          move: Flytt
+          undo: Angre
+        headers:
+          booked: Dette arrangementet
+          pending: Folk som kan bli lagt til
+        states:
+          added: Blir lagt til dette arrangementet
+          pending: Tilgjengelig
+          removed: Flyttes bort fra dette arrangementet
+      statusText: "{personCount, plural, =1 {En person} other {# folk}} blir flyttet"
+      submitButton: Utfør
+      title: Behandle deltakere
+    search: Søk
+    state:
+      cancelled: Avlyst
+      draft: Utkast
+      ended: Avsluttet
+      open: Åpen
+      scheduled: Planlagt
+    stats:
+      participants: "{participants, plural, one {1 deltaker} other {# deltakere}}"
+    tabs:
+      overview: Oversikt
+      participants: Deltakere
+    tooltipContent: Arrangement uten tittel viser type som tittel
+    type:
+      createType: Ny "{type}"
+      deleteMessage:
+        Er du sikker på at du vil slette "{eventType}"arrangementstypen
+        for hele organisasjonen?
+      deleteWarning:
+        Er du sikker på at du vil slette "{eventType}"arrangementstypen
+        for hele {orgTitle}?
+      tooltip: Klikk for å endre type
+      uncategorized: Ukategorisert
+  files:
+    fileUpload:
+      dropToUpload: Slipp en fil her for å laste opp
+      instructions: eller trekk og slipp
+      selectClick: Klikk for å laste opp
+    image:
+      dimensions: "{width} x {height} piksler"
+    libraryDialog:
+      preview:
+        backButton: Tilbake til biblioteket
+        useButton: Bruk
+      title: Bibliotek
+    searching:
+      label: Søk
+    sorting:
+      label: Sortér etter
+      options:
+        date: Dato
+        originalName: Opprinnelig filnavn
+    typeFilter:
+      anyOption: Alle typer
+      label: Type
+      options:
+        image: Bilder
+  home:
+    activityList:
+      actions:
+        call: Begynn å ringe
+        canvass: Begynn å besøke adresser
+        signUp: Meld på
+        undoSignup: Meld av
+      emptyListMessage: Du er ikke påmeldt noen aktiviteter
+      eventStatus:
+        booked:
+          Du har blitt registrert på denne aktiviteten og vi regner med at du
+          skal møte opp. Kontakt {org} hvis du må avlyse.
+        needed: Du trengs
+        signedUp: Du har meldt deg på
+      filters:
+        call: Ring
+        canvass: Dør til dør
+        event: Arrangementer
+    allEventsList:
+      emptyList:
+        message: Finner ingen arrangementer
+        removeFiltersButton: Tøm filtre
+      filterButtonLabels:
+        organizations:
+          "{numOrgs, plural,=0 {Organisasjoner} =1 {en organisasjon}
+          other {# organisasjoner}}"
+        thisWeek: Denne uka
+        today: I dag
+        tomorrow: I morgen
+    defaultTitles:
+      callAssignment: Ringeoppdrag uten navn
+      canvassAssignment: Dør til dør oppdrag uten navn
+      event: Arrangement uten navn
+      noLocation: Ingen fysisk plassering
+    footer:
+      privacyPolicy: Personvernerklæring
+    tabs:
+      feed: Alle arrangementer
+      home: Mine aktiviteter
+    title: Min Zetkin
+  import:
+    actionButtons:
+      back: Tilbake
+      close: Lukk
+      configure: Sett opp
+      done: Ferdig
+      import: Importér
+      restart: Start på nytt
+      validate: Kontrollér
+    configuration:
+      configure:
+        dates:
+          customFormatDescription:
+            Beskriv formatet på verdiene i kolonnen med bokstavene
+            Y, M og D, og tegnene som skiller dem. For eksempel, hvis du har datoer
+            skrevet som 1998.03.23, så skal de beskrives med YYYY.MM.DD.
+          customFormatLabel: Tilpasset datoformat
+          dateConfigDescription:
+            Velg formatet for verdiene i kolonnen så de kan importeres
+            som riktige datoer
+          dateInputLabel: Datoformat
+          dropDownLabel: Velg format
+          emptyPreview: Kunne ikke oversettes
+          header: Sett opp datoformat
+          invalidDateFormatWarning:
+            Det er verdier i kolonnen som ikke passer med
+            dette formatet, er du sikker på at du har valgt riktig format?
+          listSubHeaders:
+            custom: Tilpasset
+            dates: Datoformater
+            personNumbers: Personnummer
+          noCustomFormatWarning: Du har ikke valgt et egenvalgt datoformat.
+          personNumberFormat:
+            dk:
+              description:
+                Verdiene i denne kolonnen oversettes fra 10 siffers danske
+                CPR-nummer (DDMMYY-XXXX eller DDMMYYXXXX) til datoer.
+              label: Dansk CPR-nummer
+            "no":
+              description:
+                Verdiene i denne kolonnen oversettes fra 11 siffers norske
+                fødselsnummer (DDMMYYXXXXX eller DDMMYY-XXXXX) til datoer.
+              label: Norsk fødselsnummer
+            se:
+              description:
+                Verdiene i denne kolonnen oversettes fra 10 eller 12 siffers
+                svenske personnummer (YYMMDD-XXXX eller YYYYMMDD-XXXX) til datoer.
+              label: Svensk personnummer
+        enum:
+          header: Tildel veriene til alternativer
+          none: Ingen
+          numberOfRows: "{numRows, plural, =1 {en rad} other {# rader}}"
+          value: Verdi
+        genders:
+          label: Kjønn
+          selectLabels:
+            f: Kvinne
+            m: Mann
+            o: Annet
+            unknown: Ukjent
+        ids:
+          configExplanation:
+            Import med medlemsnummer gjør at Zetkin kan oppdatere
+            eksisterende folk (nå og senere), heller enn å lage duplikater.
+          externalID: Medlemsnummer
+          externalIDExplanation:
+            Tallene i denne kolonnen er medlemsnummer fra Hypersys
+            (ikke Zetkin).
+          externalIDInfo:
+            Ekstern ID er et nummer som kommer fra et annet system enn
+            Zetkin, for eksempel medlemsregisteret.
+          header: Sett opp ID/Medlemsnummer
+          showOrganizationSelectButton: Legg til i...
+          wrongIDFormatWarning:
+            Verdiene i denne kolonnen ser ikke ut som Zetkin IDer.
+            En Zetkin ID består kun av tall, hvis noen av radene er tomme eller inneholder
+            andre tegn enn tall, kan ikke kolonnen brukes som Zetkin ID.
+          zetkinID: Zetkin ID
+          zetkinIDExplanation:
+            Tallene i denne kolonnen er basert på en eksport fra
+            Zetkin.
+          zetkinIDInfo:
+            Zetkin ID er et nummer knyttet til en person som finnes i
+            Zetkin fra før. Du finner det i data som er eksportert fra Zetkin.
+        orgs:
+          guess: Foreslå organisasjoner
+          header: Velg organisasjoner
+          organizations: Organisasjon
+          showOrganizationSelectButton: Knytt til
+          status: Status
+        tags:
+          empty: Tomt
+          guess: Foreslå etiketter
+          header: Sett opp etiketter
+          numberOfRows: "{numRows, plural, =1 {En rad} other {# rader}}"
+          tagsHeader: Etiketter
+      hide: Skjul
+      mapping:
+        configButton: Sett opp
+        defaultColumnHeader: Kolonne {coloumnIndex}
+        emptyStateMessage: Begynn med å sette opp kolonnene i filen.
+        externalID: Ekstern ID
+        fileHeader: Fil
+        finishedMappingDates:
+          Oversetter {numValues, plural, =1 {1 verdi} other {#
+          verdier}} fra {dateFormat, select, se {Swedish personnummer} no {Norwegian
+          fødselsnummer} dk {Danish CPR-number} other {{dateFormat}}} til dato
+        finishedMappingIds:
+          Setter opp {numValues, plural, =1 {ett nummer} other {#
+          numre}} som {idField, select, id {Zetkin ID} other {external ID}}
+        finishedMappingOrganizations:
+          "{numPeople, plural, =1 {en person} other {#
+          folk}} legges til i {numMappedTo, plural, =1 {En organisasjon} other {#
+          organisasjoner}}"
+        finishedMappingTags:
+          Tildeler {numRows, plural, =1 {en rad} other {# rader}}
+          to {numMappedTo, plural, =1 {en etikett} other {# etiketter}}
+        header: Oppsett
+        id: ID
+        infoButton: Info
+        mapValuesButton: Sett opp verdier
+        messages:
+          manyValuesAndEmpty:
+            "{firstValue}, {secondValue}, {thirdValue}, {numMoreValues,
+            plural, =1 {en verdi til} other {# fler verdier}} og {numEmpty, plural,
+            =1 {en tom rad} other {# tomme rader}}."
+          manyValuesNoEmpty:
+            "{firstValue}, {secondValue}, {thirdValue} og {numMoreValues,
+            plural, =1 {en verdi til} other {# andre verdier}}."
+          oneValueAndEmpty:
+            "{firstValue} og {numEmpty, plural, =1 {en tom rad} other
+            {# tomme rader}}."
+          oneValueNoEmpty: "{firstValue}."
+          onlyEmpty: "{numEmpty, plural, =1 {en tom rad} other {# tomme rader}}."
+          readOnlyField: "{title} (kan ikke redigeres)"
+          threeValuesAndEmpty:
+            "{firstValue}, {secondValue}, {thirdValue} og {numEmpty,
+            plural, =1 {en tom rad} other {# tomme rader}}."
+          threeValuesNoEmpty: "{firstValue}, {secondValue} og {thirdValue}."
+          twoValuesAndEmpty:
+            "{firstValue}, {secondValue} og {numEmpty, plural, =1
+            {en tom rad} other {# tomme rader}}."
+          twoValuesNoEmpty: "{firstValue} og {secondValue}."
+        needsConfig: Du må sette opp IDer
+        needsMapping: Du må sette opp verdier
+        organization: Organisasjon
+        selectZetkinField: Importér som...
+        tags: Etiketter
+        unfinished:
+          date: Du må sette opp datoformat
+          enum: Du må tildele verdier
+          gender: Du må tildele verdier
+          id: Du må sette opp ID
+          org: Du må sette opp verdier
+          tag: Du må sette opp verdier
+        zetkinFieldGroups:
+          fields: Felter
+          id: ID
+          other: Andre
+        zetkinHeader: Zetkin
+        zetkinID: Zetkin ID
+      preview:
+        columnHeader:
+          gender: Kjønn
+          org: Organisasjon
+          tags: Etiketter
+        genders:
+          f: Kvinne
+          m: Mann
+          o: Annet
+          unknown: Ukjent
+        next: Neste
+        noOrg: Ingen organisasjon
+        noTags: Ingen etiketter
+        noValue: Ingen verdi
+        previous: Forrige
+        title: Forhåndsvisning av oppsett
+      settings:
+        firstRowIsHeaders: Første rad er overskrifter
+        header: Innstillinger
+        sheetSelectHelpText:
+          Filen inneholder flere regneark, velg hvilket du vil
+          bruke.
+        sheetSelectLabel: Ark
+      show: Vis
+      statusMessage:
+        done:
+          Setter opp import av {numConfiguredPeople, plural, =1 {en person} other
+          {# folk}}
+        notDone: Oppsettet ditt er ikke fullstendig
+      title: Import
+    impactSummary:
+      future:
+        created: "{number}{numPeople, plural, =1 {person} other {folk}} vil bli opprettet"
+        defaultDesc: "{numPeople} vil få endret {field}"
+        organization: Organisasjon
+        orgs: "{numPeople}blir lagt til i en {org}"
+        tags: Etiketter
+        tagsDesc: "{numPeople} Får {tags} tildelt"
+        updated: "{number} {numPeople, plural, =1 {person} other {folk}} vil bli oppdatert"
+      past:
+        created: "{number}{numPeople, plural, =1 {person} other {folk}} ble opprettet"
+        defaultDesc: "{numPeople} fikk endret {field}"
+        organization: Organisasjon
+        orgs: "{numPeople} ble lagt til i en {org}"
+        tags: Etiketter
+        tagsDesc: "{numPeople} fikk {tags} tildelt"
+        updated: "{number} {numPeople, plural, =1 {person} other {folk}} ble oppdatert"
+      people: "{number} {numPeople, plural, =1 {person} other {folk}}"
+    importStatus:
+      completed:
+        desc: Dine data har blitt importert til Zetkin
+        title: Importen er fullført
+      completedChanges: Gjennomførte endringer
+      error:
+        desc: Ingen informasjon ble importert til Zetkin
+        title: Importen mislyktes
+      loadingState: Importerer
+      scheduled:
+        desc:
+          Du kan trygt lukke denne dialogboksen, vi sender en e-post når importen
+          er fullført.
+        title:
+          Dette er en diger import! Det kommer til å ta litt tid å gjennomføre
+          den.
+    preflight:
+      headers:
+        messages: Meldinger
+        summary: Oppsummering
+      messages:
+        common:
+          back: Gå tilbake
+          checkbox: Jeg forstår og vil fortsette likevel
+          fewRows: Dette problemet finnes på radene {commaRows} og {lastRow}.
+          manyRows:
+            Dette problemet finnes på radene {commaRows} og {additionalRows}
+            rader til.
+          singleRow: Problemet finnes på rad {row}.
+        invalidFormat:
+          title: "Feil format for feltet: {field}"
+        majorChange:
+          description: Forsikre deg om at du har satt opp radene riktig
+          title: Denne importen kommer til å overskrive mange folks {field}
+        missingIdAndName:
+          description:
+            Hver rad må inneholde minst fornavn og etternavn, eller en
+            ID til en person som eksisterer i Zetkin fra før.
+          title: Noen rader mangler navn eller ID.
+        noImpact:
+          description:
+            Dette kan skyldes av fila ikke inneholder ny informasjon, eller
+            en ukjent feil.
+          title: Denne importen vil ikke ha noen virkning
+        ok:
+          description:
+            Forsikre deg om at oppsummeringen stemmer og trykk på "Import"
+            for å gjennomføre importen.
+          title: Ingen problemer oppdaget!
+        unconfiguredId:
+          description:
+            Dette kommer til å lage duplikater i databasen. Hvis det er
+            første gangen du importerer bør du gå tilbake og sette opp medlemsnummer
+            i importen.
+          title: Du har ikke valgt en kolonne for ID
+        unconfiguredIdAndName:
+          description:
+            Alle importer må enten inkludere fornavn og etternavn, eller
+            IDer for folk som finnes i Zetkin fra før.
+          title: Du har ikke satt opp noen kolonner som identifiserer folkene i importen.
+        unexpectedError:
+          description:
+            Ingen folk ble importert. Du kan gå tilbake og sjekke innstillingene
+            for importen, eller velge en ny fil å importere. Det var feil i importen
+            du forsøkte. Forsøk gjerne på nytt og kontroller at du har fylt ut all
+            nødvendig informasjon. Hvis det fortsatt ikke fungerer kan du kontakte
+            brukerstøtte på info@zetkin.org
+          title: Noe gikk galt og importen ble avbrutt
+        unknownError:
+          description:
+            Kontakt brukerstøtte (it@sv.no) hvis du trenger hjelp med å
+            forstå problemet.
+          title: Det oppsto en ukjent feil
+        unknownPerson:
+          description:
+            Du satte opp en kolonne som Zetkin ID, men kolonnen inneholder
+            IDer som ikke eksisterer. Skulle du bruke medlemsnummer, eller kan noen
+            folk ha blitt slettet fra Zetkin etter filen ble oppretta?
+          title: Forsøker å oppdatere oppføringer som ikke eksisterer
+        validating: Validerer
+    steps:
+      configure: Sett opp
+      import: Importér
+      upload: Last opp
+      validate: Kontrollér
+    uploadDialog:
+      dialogButtons:
+        configure: Sett opp
+        restart: Start på nytt
+      instructions: "{link} eller trekk og slipp"
+      loading: Laster fil...
+      release: Slipp fila her
+      selectClick: Klikk for å laste opp
+      types: CSV, XLS eller XLSX
+      unsupportedFile: Filformatet støttes ikke.
+    validation:
+      messages: Meldinger
+      pendingChanges: Venter på endringer
+      people: "{numPeople, plural, =1 {person} other {folk}}"
+      statusMessages:
+        create:
+          Denne importen vil opprette {numCreated, plural, =1 {en person} other
+          {# folk}}.
+        createAndUpdate:
+          Denne importen vil opprette {numCreated, plural, =1 {en person}
+          other {# folk}} og oppdatere {numUpdated, plural, =1 {en person} other {#
+          folk}}.
+        error: Du må rette opp i feilene før du kan importere
+        update:
+          Denne importen vil oppdatere {numUpdated, plural, =1 {en person} other
+          {# folk}}.
+  joinForms:
+    defaultTitle: Skjema uten tittel
+    embedding:
+      copyLink: Kopier innbyggingslenke
+      formSubmitted: Skjema sendt inn
+      linkCopied: Innbyggingslenke kopiert
+      openLink: Besøk nå
+      submitButton: Send inn
+    formPane:
+      labels:
+        addField: Legg til felt
+        description: Beskrivelse
+        requireEmailVerification: Krev e-postverifisering
+        title: Tittel
+      title: Rediger skjema
+    forms: Skjemaer
+    states:
+      accepted: Godkjent
+      pending: Venter på godkjenning
+    status: Status
+    submissionList:
+      approveButton: Godkjenn
+      firstName: Fornavn
+      form: Skjema
+      lastName: Etternavn
+      noFilteringResults: Filtreringen gav ingen resultater.
+      rejectButton: Avvis
+      timestamp: Tidsstempel
+    submissionPane:
+      allForms: Alle skjemaer
+      allStatuses: Alle
+      approveButton: Godkjenn
+      form: Skjema
+      rejectButton: Avvis
+    submissionVerifiedPage:
+      h: Takk!
+      info:
+        Påmeldingen din er verifisert og tillitsvalgte i {org} vil gå gjennom
+        den.
+  journeys:
+    instance:
+      addAssigneeButton: Legg til kontaktperson
+      addSubjectButton: Legg til person
+      addSubjectLabel: Legg til person
+      assignPersonLabel: Finn kontaktperson
+      closeButton:
+        dialog:
+          outcomeFieldPlaceholder: Beskriv resultatet av {singularLabel}
+          outcomeLabel: Resultat
+          outcomeTagsDescription: Legg til etiketter som beskriver resultatet
+          outcomeTagsLabel: Etiketter for resultat
+        error: Kunne ikke lukke {singularLabel}
+        label: Lukk {singularLabel}
+      collapseButton: Skjul
+      createAndApplyTagButton: Opprett og bruk
+      created: Opprettet {relative}
+      deadlineLabel: (Frist var {date})
+      dueDateInputClear: Fjern
+      dueDateInputLabel: Frist
+      editButton: Rediger
+      ellipsisMenu:
+        convert: Konverter til...
+      expandButton: Utvid
+      markedCompleteLabel: Fullført {relativeTime}
+      newInstance:
+        draft: Utkast
+        openingNote: Åpningsnotat
+        submitLabel: Opprett ny {journey}
+        title: Ny {journey}
+      noMilestones: Det er ingen oppfølginger.
+      noOutcomeDetails: Ingen detaljer om resultater.
+      percentComplete: "{percentComplete}% fullført"
+      reopenButton:
+        error: Kunne ikke åpne {singularLabel}
+        label: Åpne {singularLabel} på nytt
+      sections:
+        assigned: Tildelt
+        members: Medlemmer
+        milestones: Oppfølginger
+        outcome: Denne {journeyTitle} er lukket.
+        summary: Oppsummering
+        timeline: Notater
+      summaryPlaceholder: Legg inn en kort beskrivelse av {journeyTitle}
+      updated: siste aktivitet {relative}
+    instances:
+      columns:
+        assignees: Tildelt
+        created: Opprettet
+        id: ID
+        nextMilestoneDeadline: Neste oppfølgingsfrist
+        nextMilestoneTitle: Neste oppfølging
+        outcome: Notater om resultat
+        subjects: Folk
+        summary: Oppsummering
+        tagsFree: Etiketter
+        title: Tittel
+        updated: Sist oppdatert
+      export:
+        headers:
+          assignees: Kontaktpersoner
+          closed: Lukket
+          created: Opprettet
+          id: ID
+          journey: Plan
+          nextMilestone: Neste oppfølging
+          nextMilestoneDeadline: Neste oppfølgingsfrist
+          outcome: Resultat
+          subjects: Medlemmer
+          summary: Oppsummering
+          title: Tittel
+          unsortedTags: Ugrupperte etiketter
+          updated: Oppdatert
+      filters:
+        doesNotHaveOperator: har ikke
+        doesNotIncludeOperator: inneholder ikke
+        hasOperator: har
+        includesOperator: inneholder
+        isEmptyOperator: er tomt
+        isNotOperator: er ikke
+        isOperator: er
+        milestoneLabel: Oppfølging
+        personLabel: Person
+        tagLabel: Etikett
+      menu:
+        downloadCsv: Last ned {pluralLabel} som CSV
+        downloadXlsx: Last ned {pluralLabel} som Excel
+    journeys:
+      buttonClose: Lukk
+      buttonOpen: Åpne
+      cardCTA: Se alle
+      closedCount: "{numberClosed} lukkede"
+      conversionSnackbar:
+        error: Noe gikk galt med å konvertere planen.
+        success: Velykket konvertering!
+      editJourneyTitleAlert:
+        error: Feil. Tittelen ble ikke oppdatert.
+        success: Tittel oppdatert!
+      lastActivity: Siste aktivitet
+      menu:
+        downloadCsv: Last ned alle som CSV
+        downloadXlsx: Last ned alle som Excel
+      nextMilestone: Neste oppfølging
+      openCount: "{numberOpen} åpne"
+      overview:
+        overviewTitle: Alle planer
+      statusClosed: Lukket
+      statusOpen: Åpen
+      tabs:
+        closed: Lukket
+        manage: Administrer
+        milestones: Oppfølginger
+        open: Åpne
+        overview: Oversikt
+        timeline: Tidslinje
+      title: Planer
+  organizations:
+    gen3:
+      description:
+        Dette er den nye (generasjon 3) nettapplikasjonen. Hvis du er kjent
+        med den gamle så vil du finne mange nye funksjoner og forbedret design her.
+        Hvis du vil kan du bruke den gamle versjonen litt til.
+      gen2Button: Gå til gammel versjon
+      title: Velkommen til nye Zetkin!
+    notOrganizer:
+      description:
+        Denne delen av Zetkin er bare tilgjengelige for de som har en administratorrolle.
+        Du har ikke en slik rolle, hvis du skulle hatt det må du kontakte de som er
+        ansvarlige for organisasjonen din.
+      myPageButton: Gå til aktivistportalen
+      title: Du har ikke tilgang som administrator
+    page:
+      title: Velg organisasjon
+    sidebar:
+      allOrganizations: Alle organisasjoner
+      filter:
+        noResults: Ingen organisasjoner passer med filteret
+        topLevel: Hovedorganisasjon
+      filtered: Filtrert
+      recent:
+        clear: Fjern nylige
+        title: Nylige organisasjoner
+  profile:
+    delete:
+      button: Fjern person
+      confirm:
+        Er du sikker på at du vil slette {name} fra {org}, og alle relaterte
+        organisasjoner? Denne handlingen kan ikke angres.
+      title: Slett konto
+      warning: Dette kan ikke angres!
+    details:
+      title: Detaljer
+    editButton: Rediger {title}
+    editButtonClose: Avbryt redigering av {title}
+    editButtonLabel: Rediger detaljer
+    editPersonHeader: Rediger {person}
+    ellipsisMenu:
+      merge: Slå sammen med...
+    genders:
+      f: Kvinne
+      m: Mann
+      o: Annet
+      unknown: Ukjent
+    journeys:
+      addButton: Start ny plan
+      title: Planer
+    numberOfChangesMessage: Oppdaterer {number, plural, =1 {1 felt} other {# felter}}
+    organizations:
+      add: Legg til underorganisasjon
+      addError: Organisasjonen kunne ikke legges til
+      removeError: Organisasjonen kunne ikke fjernes
+      title: Organisasjoner
+    resetButton: Tilbakestill
+    saveButton: Lagre
+    tabs:
+      manage: Behandle
+      profile: Profil
+      timeline: Tidslinje
+    tags:
+      createAndApplyLabel: Opprett og bruk
+    user:
+      hasAccount: Tilknytta en Zetkin brukerkonto
+      noAccount: Ikke tilknytta en Zetkin brukerkonto
+  search:
+    error: Noe gikk galt
+    label: Søk
+    noResults: Ingen resultater
+    placeholder: Skriv for å søke
+    results:
+      callassignment: Ringeoppdrag
+      campaign: Kampanje
+      people: Folk
+      person: Person
+      project: Prosjekt
+      survey: Spørreundersøkelse
+      task: Innhold
+      view: Liste
+  settings:
+    officials:
+      addPerson:
+        addAdmin: Legg til administrator
+        addOrganizer: Legg til koordinator
+        administrators: administratorer
+        alreadyInList: Finnes i lista fra før
+        organizers: koordinatorer
+        placeholder: Skriv for å legge til person i {list}
+      administrators:
+        columns:
+          name: Navn
+        description:
+          Administratorer har full tilgang til å opprette, redigere, og
+          slette alle typer innhold.
+        roleInheritance: Administrator i
+        title: Administratorer
+      organizers:
+        columns:
+          inheritance: Arvet rolle
+          name: Navn
+        description:
+          Koordinatorer har rettigheter til å organisere arrangementer
+          og redigere eksisterende ringeoppdrag.
+        roleInheritance: Koordinator i
+        title: Koordinatorer
+      settingsLayout:
+        access: Tilgang
+        title: Innstillinger
+      tableButtons:
+        demote: Nedgrader
+        promote: Oppgrader
+        remove: Fjern
+      urlCard:
+        linkToPub: Lenke til organisasjonen
+        subTitle: Brukere må koble til organisasjonen for å kunne logge inn som tillitsvalgt
+      you: Du
+  smartSearch:
+    buttonLabels:
+      add: Lagre
+      addNewFilter: Legg til / fjern folk
+      cancel: Avbryt
+      close: Lukk
+      goBack: Tilbake til søket
+      save: Lagre
+    filterCategories:
+      campaignActivity: Kampanjeaktivitet
+      email: E-post
+      misc: Ymse
+      peopleDatabase: Folk
+      phoneBanking: Ringeaksjoner
+      surveys: Spørreundersøkelser
+    filterGallery:
+      categories:
+        basicInformation:
+          description: Velg basert på personopplysninger
+          title: Grunnleggende informasjon
+        crossReferencing:
+          description: Velg basert på lister og smartsøk
+          title: Kryssreferer
+        email:
+          description: Finn folk basert på e-posthistorikk
+          title: E-post
+        events:
+          description: Velg basert på informasjon fra arrangementer
+          title: Arrangementer
+        journey:
+          description: Velg basert på informasjon fra planer
+          title: Planer
+        misc:
+          description: Andre måter å velge
+          title: Diverse
+        phoneBanking:
+          description: Bruk ringehistorikk til å velge
+          title: Ringeoppdrag
+        surveys:
+          description: Velg basert på informasjon fra spørreundersøkelser
+          title: Spørreundersøkelser
+        tasks:
+          description: Velg basert på informasjon fra innhold i SV-Appen
+          title: Innhold
+      filters:
+        call_history:
+          description: Finn folk som har blitt ringt, nådd, eller forsøkt ringt.
+          title: Ringehistorikk
+        campaign_participation:
+          description:
+            Hvem meldte seg på? Ble registrert? Hvem meldte seg ikke på?
+            Finn dem!
+          title: Deltakelse på arrangementer
+        email_blacklist:
+          description: Avvist, feil adresse, ikke mottatt - her finner du dem.
+          title: Folk som er blokkert fra å motta epost
+        email_click:
+          description: Klikket de på noe? Klikket de ikke?
+          title: Basert på interaksjon med lenker i e-post.
+        email_history:
+          description: Hvem ble tilsendt hva, når?
+          title: Basert på eposthistorikk
+        joinform:
+          description: Finn folk som har fyllt ut innmeldingsskjema
+          title: Basert på innmeldingsskjema
+        journey_subjects:
+          description: Finn folk som har en pågående plan eller har fullført en
+          title: Folk som deltar i en plan
+        person_data:
+          description: Navn, adresse, e-post og mer!
+          title: Personopplysninger
+        person_field:
+          description:
+            Som grunnleggende informasjon, men søkefeltene er tilpasset
+            denne organisasjonen.
+          title: Spesialfelt
+        person_tags:
+          description: For å finne folk som har eller ikke har bestemte etiketter.
+          title: Etiketter
+        person_view:
+          description: Når du vil finne folk som er, eller ikke er i en liste.
+          title: Folk fra en liste
+        random:
+          description: Legg til eller fjerne tilfeldige folk.
+          title: Tilfeldig utvalg
+        sub_query:
+          description: Bruk et annet smarsøk til å justere dette smarsøket.
+          title: Folk som blir funnet av et lagret smartsøk
+        survey_option:
+          description:
+            "Bruk svarene på spørreundersøkelsene dine til det de er ment
+            for: finne riktige folk!"
+          title: Svar på avkrysningsspørsmål
+        survey_response:
+          description:
+            "Bruk svarene på spørreundersøkelsene dine til sitt fantastiske
+            formål: finne riktige folk!"
+          title: Svar på fritekstspørsmål
+        survey_submission:
+          description:
+            Har de svart på en undersøkelse? Har de ikke svart? Finn dem
+            her!
+          title: Svarte på spørreundersøkelse
+        task:
+          description:
+            Legg til eller fjern folk basert på interaksjon med innhold
+            i SV-Appen
+          title: Innhold
+        user:
+          description: Finn folk som har, eller ikke har, en Zetkin brukerkonto
+          title: Zetkinbrukere
+    filterTitles:
+      all: Alle
+      call_blocked: Blokkert fra å ringes
+      call_history: Basert på ringehistorikk
+      campaign_participation: Basert på aktivitet
+      email_blacklist: Folk som er blokkert fra å motta e-post
+      email_click: Basert på lenkeklikk i e-post
+      email_history: Basert på e-posthistorikk
+      most_active: De mest aktive
+      person_data: Basert på navn, adresse, eller annen informasjon
+      person_field: Basert på spesialfelter
+      person_tags: Basert på etiketter
+      person_view: Folk fra en liste
+      random: Et tilfeldig utvalg av folk
+      sub_query: Basert på et annet søk
+      survey_option: Basert på svar de har valgt i en spørreundersøkelse
+      survey_response: Basert på svar de har skrevet i en spørreundersøkelse
+      survey_submission: Folk som har besvart en spørreundersøkelse
+      task: Folk som har interagert med innhold i SV appen
+      user: Folk som har en Zetkin brukerkonto
+    filters:
+      all:
+        inputString: Begynn med {startWithSelect}.
+        startWithSelect:
+          "false": en tom liste
+          "true": alle i organisasjonen
+      callBlocked:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        inputString: "{addRemoveSelect} folk som er blokkert fra å ringes"
+      callHistory:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        assignmentSelect:
+          any: et ringeoppdrag
+          assignment: ringeoppdraget "{assignmentTitle}"
+          none: Denne organisasjonen har ingen ringeoppdrag, ennå!
+        callSelect:
+          called: har blitt ringt
+          notreached: har ikke blitt nådd
+          reached: har blitt nådd
+        examples:
+          one:
+            Legg til folk som har blitt nådd minst 2 ganger i et hvilket som helst
+            ringeoppdrag når som helst.
+          two:
+            Fjern folk som har blitt ringt minst en gang i ringeoppdraget "Valgkamp
+            2023" de siste 30 dagene.
+        inputString:
+          "{addRemoveSelect} folk som {callSelect} {minTimes} i {assignmentSelect}
+          {timeFrame}."
+        minTimes: "{minTimes} {minTimes, plural, one {gang} other {ganger}}"
+        minTimesInput: minst {input} {minTimes, plural, one {time} other {times}}
+      campaignParticipation:
+        activitySelect:
+          activity: aktiviteten "{activity}"
+          any: en aktivitet
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        bookedSelect:
+          booked: blitt registrert på
+          signed_up: meldt seg på
+        campaignSelect:
+          any: et prosjekt
+          campaign: Prosjektet "{campaign}"
+        examples:
+          one:
+            Legg til folk som har meldt seg på arrangementer i et prosjekt med
+            en aktivitet på plassen 'Torget' når som helst.
+          two:
+            Fjern folk som ikke har blitt registrert på arrangementer i et prosjekt
+            med aktiviteten "Stå på stand" hvor som helst før i dag.
+        haveSelect:
+          in: har
+          notin: ikke har
+        inputString:
+          "{addRemoveSelect} folk som {haveSelect} {bookedSelect} arrangementer
+          i {campaignSelect} med {activitySelect} på {locationSelect} {timeFrame}"
+        locationSelect:
+          any: et sted
+          location: stedet "{location}"
+      emailBlacklist:
+        inputString:
+          "{addRemoveSelect} folk som ikke kan motta e-post på grunn av
+          {reasonSelect}"
+        reasonSelect:
+          any: alle årsaker
+          unsubOrg: de har meldt seg av
+      emailClick:
+        inputString:
+          "{addRemoveSelect} folk som har {operatorSelect} {linkScopeSelect}
+          {emailSelect} {projectSelect} {timeFrame} {linkSelect}"
+        linkScopeSelect:
+          anyFollowingLinks: en av de følgende lenkene i den spesifikke e-posten
+          anyLink: hvilken som helst lenke i hvilken som helst e-post
+          anyLinkInEmail: hvilken som helst lenke i en spesifikk e-post
+          linkInEmailFromProject:
+            hvilken som helst lenke i en hvilken som helst e-post
+            i det spesifikke prosjektet
+        operatorSelect:
+          clicked: klikket
+          notClicked: ikke klikket
+      emailHistory:
+        emailScopeSelect:
+          any: hvilken som helst e-post
+          email: den spesifikke e-posten
+          project: hvilken som helst e-post i prosjektet
+        inputString:
+          "{addRemoveSelect} folk som har {operatorSelect} {emailScopeSelect}
+          {emailSelect} {projectSelect} {timeFrame}"
+        operatorSelect:
+          notOpened: ikke åpnet
+          notSent: ikke blitt tilsendt
+          opened: åpnet
+          sent: blitt tilsendt
+      joinForm:
+        anyForm: et hvilket som helst innmeldingsskjema
+        form: '"{title}"'
+        inputString: "{addRemoveSelect} folk som fylte ut {formSelect} {timeFrame}"
+      journey:
+        condition:
+          conditionSelect:
+            all: og har alle
+            any: og har noen
+            none: og har ingen
+            regardlessTags: uavhengig av etiketter
+            some: og har minst
+          preview:
+            all: og har alle
+            any: og har noen
+            none: og har ingen
+            regardlessTags: uavhengig av etiketter
+            some: og har minst {minMatching}
+        followingTags: av følgende etiketter
+        inputString:
+          "{addRemoveSelect} folk som finnes i {journeySelect} som åpnet
+          {openedTimeFrame} og{stateSelect} {closedTimeFrame} {condition} {tagsDesc}
+          {tags}"
+        stateOptions:
+          closed: lukket
+          open: fortsatt er åpen
+      mostActive:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        examples:
+          one: Legg til de 100 mest aktive folka i organisasjonen før i dag.
+          two: Fjern de 5 mest aktive folka i organisasjonen når som helst.
+        inputString:
+          "{addRemoveSelect} de {numPeopleSelect} mest aktive {numPeople,
+          plural, one {person} other {folka}} i organisasjonen {timeFrame}."
+        numPeople: "{numPeople, plural, one {person} other {folk}}"
+      personData:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        ellipsis: "..."
+        examples:
+          one: Legg til folk med fornavn 'Clara' og etternavn 'Zetkin'.
+          two: Fjern folk med poststed Oslo.
+        fieldMatches: "{field} {value}"
+        fieldSelect:
+          alt_phone: alternativt telefonnummer
+          city: poststed
+          co_address: alternativ adresse
+          email: e-post
+          first_name: fornavn
+          gender: kjønn
+          last_name: etternavn
+          phone: telefonnummer
+          remove: Fjern dette kriteriet
+          street_address: adresse
+          zip_code: postnummer
+        fieldTuple: "{first} og {second}"
+        genders:
+          f: kvinne
+          m: mann
+          o: annet
+          unknown: ukjent
+        inputString: "{addRemoveSelect} folk med {criteria}."
+      personField:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        edit:
+          date: "{fieldSelect} er {timeFrame}"
+          enum: '{fieldSelect} er "{selectInput}"'
+          none: Organisasjonen har ingen spesialfelter
+          text: "{fieldSelect} {freeTextInput}"
+          url: "{fieldSelect} {freeTextInput}"
+        fieldSelect:
+          any: spesialfelt
+        inputString: "{addRemoveSelect} folk med {field}."
+        preview:
+          date: "{fieldName} {timeFrame}"
+          enum: '{fieldName} er "{searchTerm}"'
+          text: "{fieldName} {searchTerm}"
+          url: "{fieldName} {searchTerm}"
+      personTags:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        condition:
+          conditionSelect:
+            all: alle
+            any: en av
+            minMatching: minst
+            none: ingen
+            some: minst
+          preview:
+            all: alle
+            any: en av
+            minMatching: minst {minMatching}
+            none: ingen
+            some: minst {minMatching}
+        examples:
+          one: "Legg til folk med minst 1 av følgende: 'Medlem', 'Aktivist'"
+          two: "Fjern folk med alle av følgende: 'Styremedlem'"
+        inputString: "{addRemoveSelect} folk med {condition} av følgende: {tags}"
+      personView:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        examples:
+          one: Legg til folk som er i lista 'Valgkamp'.
+          two: Fjern folk som ikke er i lista 'Valgkamp'.
+        inSelect:
+          in: er i
+          notin: ikke er i
+        inputString: "{addRemoveSelect} folk som {inSelect} lista {viewSelect}."
+        viewSelect:
+          none: Denne organisasjonen har ingen lister ennå
+      random:
+        addLimitRemoveSelect:
+          add: Legg til
+          limit: begrens til
+          sub: Fjern
+        addRemoveSelect:
+          add: legg til
+          sub: fjern
+        examples:
+          one: Legg til 20 folk i organisasjonen, ved å velge tilfeldig.
+          two: Fjern 15% av folk i organisasjonen, ved å velge tilfeldig.
+        inputString: "{addRemoveSelect} {quantity} i organisasjonen, ved å velge tilfeldig."
+      subQuery:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        examples:
+          one: Fjern folk som er i smartsøket 'Folk som bor i Nordland'.
+          two: Legg til folk som er i målgruppa for ringeoppdraget 'Gjenbetalingsringing'.
+        inputString: "{addRemoveSelect} folk som {matchSelect} {query}."
+        matchSelect:
+          in: er i
+          notin: ikke er i
+        noSmartSearches:
+          Det finnes ingen frittstående smartsøk i denne organisasjonen
+          ennå.
+        query:
+          edit:
+            callassignment_goal: '{querySelect} for ringeoppdraget "{titleSelect}"'
+            callassignment_target: '{querySelect} for ringeoppdraget "{titleSelect}"'
+          preview:
+            callassignment_goal: fullføringsgruppa for ringeoppdraget "{queryTitle}"
+            callassignment_target: målgruppa for ringeoppdraget  "{queryTitle}"
+            standalone: smartsøket "{queryTitle}"
+          selectLabel:
+            callassignment_goal: fullførtgruppa
+            callassignment_target: målgruppa
+            none: et smartsøk
+            standalone: smartsøket
+          selectOptions:
+            callassignment_goal: fullførtgruppa for et ringeoppdrag
+            callassignment_target: målgruppa for et ringeoppdrag
+            none: Denne organisasjonen har ingen ringeoppdrag eller smartsøk ennå.
+            standalone: et annet smartsøk
+      surveyOption:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        conditionSelect:
+          all: alle
+          any: noen
+          none: ingen
+          some: noen
+        examples:
+          one:
+            "Fjern folk som har valgt alle de følgende alternativene i spørreundersøkelsen
+            'Medlemsundersøkelse' (spørsmålet 'Hvordan er du interessert i å bidra?'):
+            'Aksjoner', 'Praktisk arbeid'"
+          two:
+            "Legg til folk som har valgt noen av de følgende alternativene i spørreundersøkelsen
+            'Medlemsundersøkelse' (spørsmålet 'Hvorfor ble du medlem?): 'Jeg ville
+            hjelpe til i valgkampen'"
+        inputString:
+          "{addRemoveSelect} folk som har valgt {conditionSelect} av de
+          følgende alternativene i {surveySelect} ({questionSelect}): {options}"
+        questionSelect:
+          any: et spørsmål
+          none: Det er ingen flervalgsspørsmål i denne spørreundersøkelsen
+          question: spørsmålet "{question}"
+        surveySelect:
+          any: en spørreundersøkelse
+          none: Denne organisasjonen har ingen spørreundersøkelser ennå
+          survey: spørreundersøkelsen "{surveyTitle}"
+      surveyResponse:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        examples:
+          one:
+            Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelse' (alle
+            spørsmål) som inneholder 'organisering'.
+          two:
+            Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelsen'
+            (Hva er du god på?) som er eksakt 'organisering'.
+        inputString:
+          '{addRemoveSelect} folk som har skrevet svar på {surveySelect}
+          ({questionSelect}) {matchSelect} "{freeTextInput}"'
+        matchSelect:
+          eq: som er eksakt
+          in: som innholder
+          noteq: som ikke er
+          notin: som ikke inneholder
+        questionSelect:
+          any: alle spørsmål
+          none: Det er ingen fritekstspørsmål i denne spørreundersøkelsen
+          question: spørsmålet "{question}"
+        surveySelect:
+          any: en spørreundersøkelse
+          none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
+          survey: '"{surveyTitle}"'
+      surveySubmission:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        examples:
+          one: Folk som har besvart 'Medlemsundersøkelse' før i dag.
+          two: Folk som har besvart 'Medlemsundersøkelse' de siste 30 dagene.
+        inputString: "{addRemoveSelect} folk som har besvart {surveySelect} {timeFrame}."
+        surveySelect:
+          any: en spørreundersøkelse
+          none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
+          survey: '"{surveyTitle}"'
+      task:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        campaignSelect:
+          any: et prosjekt
+          campaign: prosjektet "{campaign}"
+          in: i
+        examples:
+          one:
+            Legg til folk som har trykket fullført på innholdet 'Verv en venn'
+            minst en gang når som helst
+          two:
+            Legg til folk som har trykket ignorer på innhold i et prosjekt mellom
+            2 og 5 ganger før i dag
+        inputString:
+          "{addRemoveSelect} folk som har {taskStatusSelect} {taskSelect}
+          {campaignSelect} {matchingSelect} {timeFrame}"
+        taskSelect:
+          any: innhold
+          task: innholdet "{task}"
+        taskStatusSelect:
+          assigned: blitt tilsendt
+          completed: trykket fullført på
+          ignored: trykket ignorer på
+      user:
+        addRemoveSelect:
+          add: Legg til
+          sub: Fjern
+        connectedSelect:
+          "false": ikke har
+          "true": har
+        examples:
+          one: Fjern alle som har en brukerkonto i Zetkin.
+          two: Legg til alle som ikke har en brukerkonto i Zetkin.
+        inputString:
+          "{addRemoveSelect} alle folk som {connectedSelect} en brukerkonto
+          i Zetkin."
+    headers:
+      examples: Eksempler
+      gallery: Hvordan vil du velge folk?
+    matching:
+      edit:
+        between: "{matchingSelect} {minInput} og {maxInput} ganger"
+        max: "{matchingSelect} {maxInput} {max, plural, one {gang} other {ganger}}"
+        min: "{matchingSelect} {minInput} {min, plural, one {gang} other {ganger}}"
+      labels:
+        between: mellom
+        max: maksimalt
+        min: minst
+        once: minst en gang
+      options:
+        between: mellom
+        max: maksimalt
+        min: minst
+        once: minst en gang
+      preview:
+        between: mellom {min} og {max} ganger
+        max: maksimalt {max} {max, plural, one {gang} other {ganger}}
+        min: minst {min} {max, plural, one {gang} other {ganger}}
+        once: minst en gang
+    misc:
+      noOptions: Ingen like tags
+      noOptionsEmailNotSent:
+        E-post ikke sendt. Lenker som er lagt til i e-posten
+        blir lagt til etter den blir sendt.
+      noOptionsInvalidEmail: Ugyldig e-post, velg en e-post.
+      noOptionsLinks: Ingen lenker som passer
+    operators:
+      add: Legg til
+      limit: Begrens til
+      sub: Fjern
+    orgScope:
+      all: Søker i alle organisasjoner
+      few: Søker i {first} og {last}
+      many: Søker i {first} og {additional} andre organisasjoner
+      single: Søker i {value}
+      suborgs: Søker i alle underorganisasjoner
+    quantity:
+      preview:
+        integer: "{people} {people, plural, one {person} other {folk}}"
+        percent: "{people} % av folkene"
+      quantitySelectLabel:
+        integer: "{people, plural, one {person} other {folk}}"
+        percent: "% av folk"
+      quantitySelectOptions:
+        integer: et antall folk
+        percent: en prosentandel av folk
+    readOnly: Dette smartsøket er skrivebeskyttet og kan ikke redigeres.
+    resultHint:
+      countLabel: "{count, plural, =1 {en person} other {# folk}}"
+      hint: Dette smartsøket kommer til å finne {count} for deg.
+    smartSearch: Smartsøk
+    statsPopper:
+      change: endre
+      details:
+        Smartsøk er dynamiske. Det betyr at over tid kan antallet treff i søket
+        variere, og andre brukere kan se andre resultater hvis de har tilgang til
+        fler eller færre folk.
+      exit: Resultat
+      headline: Påvirkning
+      info: Dette er et dynamisk kriterie og antallet kan forandres over tid.
+      input: før
+      matches: funnet
+      output: etter
+    timeFrame:
+      edit:
+        between: "{timeFrameSelect} {afterDateSelect} og {beforeDateSelect}"
+        lastFew: "{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dager}}"
+      preview:
+        afterDate: etter {afterDate}
+        beforeDate: før {beforeDate}
+        beforeToday: før i dag
+        between: mellom {afterDate} og {beforeDate}
+        ever: når som helst
+        future: i framtida
+        lastFew: i løpet av siste {days} {days, plural, one {dag} other {dager}}
+      timeFrameSelectLabel:
+        afterDate: etter
+        beforeDate: før
+        beforeToday: før i dag
+        between: mellom
+        ever: når som helst
+        future: i framtida
+        lastFew: i løpet av siste
+      timeFrameSelectOptions:
+        afterDate: etter en gitt dato
+        beforeDate: før en gitt dato
+        beforeToday: før i dag
+        between: mellom to datoer
+        ever: når som helst
+        future: i framtida
+        lastFew: nylig
+  surveys:
+    addBlocks:
+      choiceQuestionButton: Flervalg
+      openQuestionButton: Fritekst
+      textButton: Tekstblokk
+      title: Velg blokktype for å legge til innhold i undersøkelsen
+    alert:
+      editable:
+        Denne spørreundersøkelsen er eid av {orgTitle} og kan bare redigeres
+        i sin opprinnelige organisasjon.
+      goOriginal: Gå til original
+      notEditable:
+        Denne spørreundersøkelsen er eid av {orgTitle} og du kan ikke redigere
+        den.
+    blocks:
+      choice:
+        addOption: Legg til ett alternativ
+        addOptionsBulk: Legg til flere alternativer
+        bulk:
+          cancelButton: Avbryt
+          placeholder: Skriv eller lim inn et alternativ per linje
+          submitButton: Legg til alle
+        description: Hjelpetekst
+        emptyDescription: Hjelpetekst
+        emptyOption: Tomt svaralternativ
+        emptyQuestion: Spørsmål
+        question: Spørsmål
+        widget: Widget
+        widgets:
+          checkbox: Avkrysning (flere svar)
+          radio: Knapper (ett svar)
+          select: Rullgardin (ett svar)
+      deleteBlockDialog:
+        title: Slett spørsmål
+        warningText: Er du sikker på at du vil slette spørsmålet? Dette kan ikke angres.
+      deleteOptionDialog:
+        title: Slett alternativ
+        warningText:
+          Er du sikker på at du vil slette alternativet? Dette kan ikke
+          angres.
+      open:
+        description: Hjelpetekst
+        empty: Fritekstspørsmål
+        fieldTypePreview: tekstfelt
+        label: Spørsmål
+        multiLine: Avsnitt
+        singleLine: Setning
+        textFieldType: Tekstfelttype
+      text:
+        content: Hjelpetekst
+        empty: Blokk
+        header: Tittel
+    chart:
+      header: Svar
+      placeholder: Begynn å samle inn svar for å se framgangen her
+      subheader: Innsendte svar siste {days, plural, =1 {dag} other {# dager}}
+      tooltip:
+        submissions: "{count, plural, =1 {ett svar} other {# svar}}"
+    editWarning:
+      editing:
+        header: Spørreundersøkelsen kan redigeres
+        lockButton: Lås
+        safe:
+          bullet1: Rette stavefeil
+          bullet2: Endre rekkefølgen på blokker
+          bullet3: Skjule spørsmål
+          bullet4: Legge til spørsmål eller svaralternativer
+          header: Trygg
+        subheader:
+          Vær forsiktig når du gjør endringer slik at ikke informasjonen
+          i tidligere svar går tapt eller blir ubrukelig.
+        unsafe:
+          bullet1: Slette spørsmål (skjul dem istedet)
+          bullet2:
+            Endre navn på spørsmål eller svaralternativer som forandrer betydningen
+            av dem
+          header: Utrygg
+      locked:
+        header: Spørreundersøkelsen er låst
+        subheader:
+          Denne undersøkelsen har begynt å få inn svar. Hvis du redigerer
+          den nå kan det bli problemer med informasjonen i svarene. Utvis forsiktighet.
+        unlockButton: Lås opp
+    layout:
+      actions:
+        delete: Slett undersøkelse
+        publish: Samle svar
+        unpublish: Steng
+        warning: '"{surveyTitle}" blir slettet'
+      stats:
+        questions: "{numQuestions, plural, one {ett spørsmål} other {# spørsmål}}"
+        submissions: "{numSubmissions, plural, one {ett svar} other {# svar}}"
+      unknownTitle: Spørreundersøkelse uten navn
+    optionCollapse:
+      collapse: Skjul
+      more:
+        "{numOfOptions, plural, one {Vis ett alternativ til} other {Vis # flere
+        alternativer}}"
+    organizerActionPane:
+      subtitle: Notater fra telefonsamtaler med {person}
+      title: Må følges opp av koordinator
+    overview:
+      noQuestions:
+        button: Lag spørsmål
+        title: Det er ingen spørsmål i denne undersøkelsen ennå
+    shareSuborgsCard:
+      caption:
+        Når dette er slått på kan tillitsvalgte i underorganisasjoner se og
+        søke i besvarelser som er levert av folk i sine underorganisasjoner.
+      title: Del med underorganisasjoner
+    state:
+      draft: Utkast
+      published: Åpnet for svar
+      scheduled: Planlagt
+      unpublished: Stengt for svar
+    submissionPane:
+      anonymous: Anonym
+      hidden: Skjult
+      linked: Koblet
+    submissions:
+      anonymous: Anonym
+      dateColumn: Dato
+      emailColumn: E-post
+      firstNameColumn: Fornavn
+      lastNameColumn: Etternavn
+      link: Koble
+      personRecordColumn: Innsender
+      suggestedPeople: Foreslåtte folk
+      unlink: Fjern kobling
+    surveyDialog:
+      add: Legg til
+      cancel: Ikke legg til
+      description:
+        Personen du skal koble til har ikke e-postadresse, men de har oppgitt
+        en i undersøkelsen, vil du legge adressen til personen i Zetkin?
+      title: Legg til e-postadresse
+    surveyForm:
+      accept: Jeg aksepterer vilkårene under
+      error: Noe gikk galt med å sende inn svarene, forsøk igjen senere.
+      policy:
+        text: Klikk for å lese hele personvernerklæringen til Zetkin
+      required: påkrevd
+      sign:
+        anonymous: Signer anonymt
+        nameAndEmail: Signer med navn og e-post
+      submit: Send inn
+      terms:
+        description:
+          Når du sender inn denne undersøkelsen blir svarene oppbevart
+          og brukt i Zetkin av {organization} for å organisere aktivisme og annen
+          aktivitet. Behandlingen følger Zetkins personvernerklæring.
+        title: Personvernerklæring
+    surveyFormSubmitted:
+      text: Dine svar på "{title}" har blitt sendt inn.
+      title: Undersøkelse sendt inn
+    surveySignature:
+      email:
+        email: E-post
+        firstName: Fornavn
+        lastName: Etternavn
+      title: Velg hvordan du vil signere
+      type:
+        anonymous: Signer anonymt
+        email: Signer med navn og e-post
+        user: Signer som {person} med e-posten {email}
+    tabs:
+      overview: Oversikt
+      questions: Spørsmål
+      submissions: Svar
+    unlinkedCard:
+      description:
+        Når noen besvarer en undersøkelse uten å logge inn blir svaret
+        ikke koblet. Zetkin kan ikke søke etter folk basert på svar i undersøkelser
+        uten at svaret er koblet til en person.
+      header: Svar uten kobling
+      openLink: "{numUnlink, plural, one {Koble svar nå} other {Koble svar nå}}"
+    unlinkedWarningAlert:
+      default:
+        description:
+          "{numUnlink, plural, one {Ett av de innsendte svarene er ikke
+          koblet til en person i Zetkin, det vil ikke dukke opp i søk.} other {Fler
+          av de innsendte svarene er ikke koblet til folk i Zetkin, de vil ikke dukke
+          opp i søk.}}"
+        header: Svar uten kobling
+        viewUnlinked: Se kun svar uten kobling
+      filtered:
+        description:
+          Listen er filtrert og viser bare signerte svar som ikke er koblet
+          til folk i Zetkin.
+        header: Viser bare svar uten kobling
+        viewAll: Se alle
+    urlCard:
+      nowAccepting: Åpen for svar fra denne lenken
+      open: Åpen for svar
+      preview: Forhåndsvis spørreundersøkelsen
+      previewPortal: Forhåndsvis spørreundersøkelsen i aktivistportalen
+      visitPortal: Gå til spørreundersøkelsen i aktivistportalen
+      willAccept: Blir åpnet for svar fra denne lenken
+  tags:
+    dialog:
+      colorErrorText: Legg inn en gyldig HEX fargekode
+      colorLabel: Farge
+      createTagButton: Opprett
+      createTitle: Ny etikett
+      deleteButtonLabel: Slett
+      deleteWarning: Er du sikker på at du vil slette etiketten? Dette kan ikke angres.
+      editTitle: Rediger etikett
+      groupCreatePrompt: Legg til "{groupName}"
+      groupLabel: Gruppe
+      groupSelectPlaceholder: Skriv for å søke eller opprette gruppe
+      submitCreateTagButton: Lagre og bruk
+      titleErrorText: Du må gi etiketten et navn
+      titleLabel: Navn
+      typeLabel: Type
+      types:
+        none: Vanlig
+        text: Med tekst
+      updateTagButton: Oppdater
+    manager:
+      addTag: Legg til etikett
+      addValue: Legg til tekst for "{tag}"
+      createNamedTag: "Opprett etikett: {name}"
+      createTag: Ny etikett
+      groupTags: Gruppér etiketter
+      title: Etiketter
+      ungroupedHeader: Ingen gruppe
+      valueTagForm:
+        typeHint:
+          "{type, select, text {Legg til tekst} other {Legg til tall}} som
+          vises på etiketten."
+    tagsPage:
+      createTagButton: Opprett
+      noTags: Organisasjonen din har ingen etiketter.
+      overviewTabLabel: Oversikt
+      title: Etiketter
+      ungroupedHeader: Ingen gruppe
+  tasks:
+    assignees:
+      completedStates:
+        completed: Trykket fullført {time}
+        ignored: Trykket ignorer {time}
+        notCompleted: Ikke trykket fullført
+      links:
+        create: Nytt smartsøk
+        edit: Rediger smartsøk
+        readOnly: Se smartsøk
+      queryStates:
+        assigned: Dette innholdet er sendt til alle som velges av smartsøket.
+        editable: Når det sendes vil innholdet gå til alle som velges av smartsøket.
+        new:
+          Dette innholdet vil sendes ut til folk som velges av et smartsøk. Før
+          du kan sende det må du velge en målgruppe med et smartsøk.
+        published:
+          Dette innholdet sendes nå til alle som velges av smartsøket, det
+          kan ta litt tid før de mottar det.
+      title: Sendt til {numPeople, plural, one {en person} other {# folk}}
+    common:
+      notSet: Ikke valgt
+    configs:
+      collectDemographics:
+        fields:
+          demographic: Informasjon som skal spørres etter
+          dempographicOptions:
+            city: Poststed
+            country: Land
+            email: E-post
+            gender: Kjønnsidentitet
+            streetAddress: Adresse
+            zipCode: Postnummer
+        title: "Spør om personopplysninger: Oppsett"
+      shareLink:
+        fields:
+          defaultMessage: Forslag til tekst mottakeren skal bruke
+          url: Lenke som skal deles
+        title: "Lenke: Oppsett"
+      visitLink:
+        fields:
+          url: Lenke som skal besøkes
+        title: "Lenke: Oppsett"
+    deleteTask:
+      cancel: Avbryt
+      error: Kunne ikke slette innholdet
+      submitButton: Bekreft sletting
+      title: Slett innhold
+      warning: Er du sikker på at du vil slette dette innholdet? Dette kan ikke angres.
+    editTask:
+      title: Rediger innhold
+    form:
+      fields:
+        campaign: Prosjekt
+        deadline: Frist
+        expires: Utløpsdato
+        instructions: Instruks
+        published: Utsendelsestidspunkt
+        reassignInterval: Send på nytt etter fullføring
+        reassignIntervalOptions:
+          days: "{days, plural, =1 {Neste dag} other {om # dager}}"
+          hours: Etter {hours, plural, =1 {en time} other {# timer}}
+          noReassign: Aldri send på nytt
+        reassignLimit: "Antall ganger innholdet sendes på nytt:"
+        timeEstimate: Beregnet tid for å fullføre
+        timeEstimateOptions:
+          hoursAndMinutes:
+            "{hours, plural, =0{} one{en time} other{# timer}} {minutes,
+            plural, =0{} one {ett minutt} other {# minutter}}"
+          lessThanOneMinute: Mindre enn ett minutt
+          noEstimate: Ikke beregnet
+        timeValidationErrors:
+          deadlineNotSecond: Dette må være etter utsendelsestidspunkt og før utløpsdato
+          expiresNotThird: Dette må være det seneste tidspunktet
+          publishedNotFirst: Dette må være det første tidspunktet
+        title: Tittel
+        type: Innholdstype
+        types:
+          demographic: Be om personopplysninger
+          offline: Uten lenke
+          share_link: Del lenke
+          visit_link: Besøk lenke
+          watch_video: Se video
+      invalidUrl: Legg inn en gyldig URL
+      requestError: Noe gik galt, forsøk gjerne igjen.
+      required: Påkrevd
+      title: Nytt innhold
+    noTasksCreatePrompt: Inget innhold... Trykk her for å lage noe.
+    publishButton:
+      publish: Send
+      tooltip:
+        alreadyPublished: Sendt
+        missingAssignees: Mangler målgruppe
+        missingFields: Mangler påkrevde felter
+        missingFieldsAndAssignees: Mangler påkrevde felter og målgruppe
+    publishTask:
+      cancel: Avbryt
+      submitButton: Send nå
+      title: Send innhold
+      warning:
+        Bekreft at du er klar til å sende innholdet. Det vil bli sendt til
+        alle i målgruppa.
+    showExpiredTasksPrompt: Vis utløpt innhold...
+    statuses:
+      active: Aktiv
+      closed: Stengt
+      draft: Utkast
+      expired: Utløpt
+      scheduled: Planlagt
+    taskDetails:
+      deadlineTime: Frist
+      editButton: Rediger
+      expiresTime: Utløpstidspunkt
+      instructionsLabel: Instruks
+      publishedTime: Utsendelsestidspunkt
+      reassignInterval:
+        label: Intervall for å sendes på nytt
+        value:
+          Sendes på nytt {value, plural, =1{en time} other{# timer}} etter mottakeren
+          trykker fullfør
+      reassignLimit:
+        label: Antall ganger innholdet sendes på nytt
+        value: Sendes på nytt {value, plural, =1{en gang} other{# gangers}} per person
+      statusLabel: Status
+      timeEstimateLabel: Beregnet tid for å fullføre
+      title: Detaljer
+      titleLabel: Tittel
+      typeLabel: Type
+    taskLayout:
+      tabs:
+        assignees: Målgruppe
+        insights: Analyse
+        summary: Oppsummering
+    taskListItem:
+      relativeTimes:
+        active: Stenger {time}
+        closed: Stengte {time}
+        expired: Utløp {time}
+        expires: Utløper {time}
+        indefinite: Sendt {time}
+        scheduled: Sendes {time}
+    taskPreview:
+      addImage: Legg til bilde
+      sectionTitle: Forhåndsvisning
+      timeEstimate:
+        "{minutes, plural, =0 {Mindre enn ett minutt} =1 {Ett minutt}
+        other {# minutter}}"
+    taskTypeDetails:
+      demographic:
+        title: Innstillinger for å be om personopplysninger
+      share_link:
+        title: Innstillinger for lenke som skal deles
+      visit_link:
+        title: Instillinger for lenke som skal besøkes
+    types:
+      demographic: Be om personopplysninger
+      offline: Uten lenke
+      share_link: Del lenke
+      visit_link: Besøk lenke
+      watch_video: Se video
+  views:
+    actions:
+      create: Opprett
+      createFolder: Ny mappe
+      createJoinForm: Opprett innmeldingsskjema
+      createPerson: Opprett person
+      createView: Ny liste
+      importPeople: Importér folk
+    browser:
+      backToFolder: Tilbake til {folder}
+      backToRoot: Tilbake til forsiden for lister
+      confirmDelete:
+        folder:
+          title: Slett mappen og innholdet
+          warning: Er du sikker på at du vil slette mappen? Dette kan ikke angres.
+        view:
+          title: Slett list
+          warning: Er du sikker på at du vil slette lista? Dette kan ikke angres.
+      menu:
+        delete: Slett
+        duplicate: Duplisér
+        move: Flytt
+        rename: Gi nytt navn
+        viewCopy: "{viewName} - kopi"
+      moveToFolder: Flytt til {folder}
+      moveToRoot: Flytt til forsiden for lister
+    browserLayout:
+      tabs:
+        duplicates: Duplikater
+        incoming: Innkommende
+        joinForms: Innmeldingsskjemaer
+        views: Lister
+      title: Folk
+    cells:
+      localPerson:
+        alreadyInView: Finnes i lista fra før
+        clearLabel: Fjern
+        otherPeople: Andre folk
+        restrictedMode: Kan ikke redigeres i delte lister
+        searchLabel: Velg en person
+      organizerAction:
+        actionNeeded: Må følges opp av koordinator
+        showDetails: Vis detaljer
+        solvedIssues: "{count, plural, =1 {1 løst problem} other {# løste problemer}}"
+      personTag:
+        emptyValue: Tomt felt
+    columnDialog:
+      categories:
+        basic:
+          description: Enkle felter med informasjon om folk
+          title: Grunnleggende informasjon
+        categorizing:
+          description:
+            For å gruppere og kategorisere folk, vilkårlig eller basert
+            på informasjon i Zetkin.
+          title: Kategorisering
+        crossReferencing:
+          description: Kryssreferer med informasjon i Zetkin ved hjelp av et smartsøk.
+          title: Kryssreferering
+        outreach:
+          description:
+            Planlegg, deleger og gjennomfør kontaktarbeid, lagre notater
+            og sjekkliste.
+          title: Kontakt
+        surveys:
+          description: Utforsk, søk, og filtrer basert på folk sine svar på spørreundersøkelser.
+          title: Spørreundersøkelser
+        utility:
+          description: Nyttige verktøy du kan bruke i mange situasjoner.
+          title: Verktøy
+      choices:
+        delegate:
+          columnTitleAssignee: Kontaktperson
+          columnTitleContacted: Kontaktet
+          columnTitleNotes: Notater
+          columnTitleResponded: Har svart
+          description:
+            Legger til flere kolonner som ofte brukes til å delegere arbeid
+            til en kontaktperson.
+          title: Delegering
+        email:
+          description: Legg til en kolonne med e-postadresser
+          keywords: epost e-post
+          title: E-postadresse
+        firstName:
+          description: Legg til en kolonne med fornavn
+          keywords: fornavn
+          title: Fornavn
+        followUp:
+          columnTitleCheckbox: Avkrysningsboks
+          columnTitleNotes: Notater
+          description: Legger til en avkrysningskolonne og en notatkolonne
+          title: Oppfølging
+        fullName:
+          description: To kolonner med fornavn og etternavn
+          keywords: etternavn
+          title: Fullt navn
+        lastName:
+          description: Legg til en kolonne med etternavn
+          keywords: etternavn
+          title: Etternavn
+        localPerson:
+          columnTitle: Kontaktperson
+          description: Lar deg velge en kontaktperson for hver rad.
+          title: Kontaktperson
+        localQuery:
+          columnTitle: I smartsøk?
+          description: Se om en person finnes i et smartsøk.
+          title: Tilpasset kryssreferanse
+        localText:
+          columnTitle: Notater
+          description: Legg til en kolonne for notater.
+          title: Notater
+        personFields:
+          description: Legg til de kolonnene du vil, som e-post, telefonnummer, etc.
+          keywords: adresse postnummer poststed land
+          title: Velg felter
+        phone:
+          description: Legg til en kolonne med telefonnummer
+          keywords: telefonnummer
+          title: Telefonnummer
+        queryBooked:
+          columnTitle: Registrert
+          description: Er de registrert på noen kommende arrangementer av oss?
+          keywords: registrert
+          title: Er registrert på kommende arrangementer
+        queryParticipated:
+          columnTitle: Deltatt
+          description: Har personen vært registrert på et arrangement?
+          keywords: registrert
+          title: Deltatt
+        queryReached:
+          columnTitle: Nådd
+          description: Har vi snakket med personen på ringeaksjoner?
+          keywords: telefon
+          title: Nådd på telefon
+        surveyResponse:
+          allOptions: Alle alternativene (Enkelt kolonne)
+          allOptionsHeader: All alternativene
+          allOptionsSeparated: Alle alternativene (Flere kolonner)
+          description: Vis svar på et spørsmål i en undersøkelse
+          keywords: flere felter
+          oneOption: Ett alternativ
+          optionsLabel: Hvilke kolonner vil du legge til?
+          questionField: Spørsmål
+          surveyField: Spørreundersøkelser
+          textField: Svarene er fritekst og vil vises i en enkelt kolonne
+          title: Ett spørsmål fra en undersøkelse
+        surveyResponses:
+          description: Inkluder svar fra flere spørsmål
+          keywords: flerfelt
+          questionField: Spørsmål
+          surveyField: Spørreundersøkelser
+          title: Flere spørsmål
+        surveySubmitDate:
+          description: Se om en person har besvart en spørreundersøkelse, og når.
+          noSurveys: Organisasjonen din har ingen spørreundersøkelser.
+          title: Besvart dato
+        tag:
+          description: Vis og skru av og på en etikett for folk i lista
+          title: Etikett
+        toggle:
+          columnTitle: Sjekkliste
+          description: Kolonne der du kan krysse av for hver rad
+          title: Sjekkliste
+      commonHeaders:
+        email: E-postadresse
+        first_name: Fornavn
+        last_name: Etternavn
+        phone: Telefonnummer
+      editor:
+        alreadyInView: Finnes i lista fra før
+        buttonLabels:
+          addColumns:
+            Legg til {columns, plural, one {en kolonne} other {{columns}
+            kolonner}}
+          change: Endre kolonnetype
+        defaultTitle: Ny kolonne
+        fieldLabels:
+          field: Felt
+          question: Spørsmål
+          smartSearch: Smartsøk
+          survey: Spørreundersøkelse
+          tag: Etikett
+      gallery:
+        add: Legg til
+        alreadyInView: Finnes i lista fra før
+        columns: Kolonner
+        configure: Sett opp
+        header: Legg til kolonne i list
+        noSearchResults: 'Fant ingen kolonner med søket: "{searchString}"'
+        searchPlaceholder: Finn en kolonne
+        searchResults: Resultater for "{searchString}"
+    columnMenu:
+      configure: Instillinger
+      confirmDelete:
+        Er du sikker på at du vil slette kolonnen? Den inneholder informasjon
+        som vil bli slettet permanent, dette kan ikke angres.
+      delete: Slett kolonne
+      rename: Gi nytt navn
+    columnRenameDialog:
+      save: Lagre
+      title: Tittel
+    dataTableErrors:
+      create_column: Kunne ikke opprette kolonnen
+      delete_column: Kunne ikke slette kolonnen
+      modify_column: Kunne ikke redigere kolonnen
+      remove_rows: Kunne ikke fjerne rader
+    defaultColumnTitles:
+      journey_assignee: Tildelte planer
+      local_bool: Sjekkliste
+      local_person: Personreferanse
+      organizer_action: Flaggede telefonsamtaler
+      person_notes: Notater
+    defaultViewTitles:
+      organizer_action: Må følges opp av koordinator
+    deleteDialog:
+      error: Kunne ikke slette lista
+      title: Slette liste?
+      warningText:
+        Er du sikker på at du vil slette lista? All informasjon i den,
+        som notater og sjekklister (men folkene vil ikke bli slettet fra Zetkin)?
+    editViewTitleAlert:
+      error: Kunne ikke endre tittelen
+      success: Tittelen ble endret!
+    empty:
+      dynamic:
+        configureButton: Innstillinger
+        description:
+          Opprett en dynamisk liste som legger til og fjerner folk automatisk
+          med et smartsøk.
+        headline: Sett opp smartsøkliste
+      notice:
+        dynamic: Dette er en smartsøkliste men ingen folk velges av smartsøket
+        static: Du har ikke lagt til noen rader
+      static:
+        description:
+          Legg til en person for å lage en statisk liste der folk legges
+          til og fjernes manuelt.
+        headline: Legg til folk manuelt
+    folder:
+      summary:
+        empty: Tomt
+        folderCount: "{count, plural, =1 {En mappe} other {# mapper}}"
+        viewCount: "{count, plural, =1 {En liste} other {# lister}}"
+    footer:
+      addPlaceholder: Begynn å skrive for å legge til en person i lista
+      alreadyInView: Finnes i lista fra før
+    moveViewDialog:
+      cancel: Avbryt
+      emptyFolder: Tom mappe
+      moveHere: Flytt hit
+    newFolderTitle: Ny mappe
+    newViewFields:
+      title: Ny liste
+    removeDialog:
+      action: Er du sikker på at du vil fjerne disse radene fra lista?
+      title: Fjern folk fra lista
+    shareDialog:
+      download:
+        buttons:
+          csv: Last ned CSV
+          xlsx: Last ned Excel
+        shareLink: dele informasjonen sikkert
+        tabLabel: Last ned
+        warning1:
+          Eksporter bare informasjon fra Zetkin hvis det er helt nødvendig.
+          Eksporterte filer skal aldri deles med andre, skal kun lastes ned til en
+          kryptert datamaskin, og skal slettes etter bruk.
+        warning2:
+          Du kan {shareLink} inne i Zetkin, del bare lister med tillitsvalgte
+          og ansatte som har myndighet til å behandle personopplysninger.
+      share:
+        addPlaceholder: Legg til andre
+        collabInstructions:
+          Når du har lagt til de som skal ha tilgang til lista,
+          kopier og send dem {viewLink} lister skal bare deles med tillitsvalgte og
+          ansatte som har myndighet til å behandle personopplysninger.
+        showOfficials: Vis admin og koordinatorer
+        statusLabel:
+          Delt med {collaborators, plural, =1 {en person} other {# folk}},
+          {officials, plural, =1 {1 admin/koordinator} other {# admin/koordinatorer}}
+          har tilgang til alle lister.
+        tabLabel: Del
+        viewLink: sikker lenke
+      title: Del "{title}"
+    suggested:
+      created: Opprettet av {name}
+      sectionTitle: Foreslått
+    surveyOptionCell:
+      notSelected: Ikke valgt
+      selected: Valgt
+    surveyPreview:
+      mostRecent:
+        header: Siste
+        openButton: Vis hele besvarelsen
+      older:
+        header: Eldre besvarelser
+        openButton: Vis
+    toolbar:
+      createColumn: Ny kolonne
+      createFromSelection: Opprett liste av valgte
+      removeFromSelection:
+        Fjern {numSelected, plural, one {1 person} other {{numSelected}
+        folk} } from view
+      removeTooltip: Smartsøk støtter ikke fjerning av rader
+    viewLayout:
+      actions:
+        share: Del
+      ellipsisMenu:
+        delete: Slett liste
+        editQuery: Rediger smartsøk
+        makeDynamic: Konverter til smarsøkliste
+        makeStatic:
+          confirmDialogInfo:
+            Hvis du konverterer denne lista til en statisk liste
+            blir smartsøket fjernet og folkene søket la til forsvinner fra lista.
+          confirmDialogSubmitLabel: Konverter
+          confirmDialogTitle: Konverter til statisk liste
+          label: Konverter til statisk liste
+      jumpMenu:
+        placeholder: Skriv for å finne liste
+      subtitle:
+        collaborators: "{count, plural, =1 {1 person} other {# folk}}"
+        columns: "{count, plural, =0 {Ingen kolonner} =1 {En kolonne} other {# kolonner}}"
+        people: "{count, plural, =0 {Empty} =1 {1 person} other {# folk}}"
+    viewsList:
+      columns:
+        created: Opprettet dato
+        owner: Eier
+        title: Tittel
+      empty: Du har ikke opprettet noen lister
+glob:
+  accessLevels:
+    configure: Rediger og sett opp
+    edit: Redigering
+    readonly: Skrivebeskyttet
+  genderOptions:
+    f: Kvinne
+    m: Mann
+    o: Annet
+    unspecified: Uspesifisert
+  personFields:
+    alt_phone: Alternativt telefonnummer
+    city: Poststed
+    co_address: Alternativ adresse
+    country: Land
+    email: E-post
+    ext_id: Medlemsnummer
+    first_name: Fornavn
+    gender: Kjønn
+    id: Zetkin ID
+    is_user: Har bruker
+    last_name: Etternavn
+    phone: Telefonnummer
+    street_address: Adresse
+    zip_code: Postnummer
+  roles:
+    admin: Admin
+    organizer: Koordinator
+zui:
+  accessList:
+    added: Lagt til av {sharer} {updated}
+    removeAccess: Fjern tilgang
+  collapse:
+    collapse: Skjul
+    expand: Vis
+  confirmDialog:
+    button: Bekreft
+    defaultTitle: Bekreft
+    defaultWarningText:
+      Er du sikker på at du vil gjennomføre denne handlingen? Den
+      kan ikke angres.
+  copyToClipboard:
+    copied: Kopiert
+    copiedValue: Kopierte "{value}"
+    copy: Kopier
+  createPerson:
+    cancel: Avbryt
+    createBtn: Opprett
+    defaultitle: Opprett person
+    enumFields:
+      noneOption: Ingen
+    genders:
+      f: Kvinne
+      m: Mann
+      o: Annet
+      unknown: Ukjent
+    showAllFields: Vis alle felter
+    submitLabel:
+      add: Opprett og legg til
+      assign: Opprett og tildel
+      default: Opprett
+    tagCreateAndApplyLabel: Opprett og bruk
+    title:
+      addToJourney: Opprett person og legg til i {journey}
+      addToList: Opprett person og legg til i {list}
+      assignToCanvassAssignment: Opprett person og meld på {canvassAss}
+      assignToJourney: Opprett person og tildel til {journey}
+      caller: Opprett person og legg til som ringer
+      contact: Opprett person og legg til som kontaktperson
+      default: Opprett person
+      participant: Opprett person og legg til som deltaker
+    validationWarning:
+      email: Legg til en gyldig e-postadresse
+      name: Dette feltet kan ikke være tomt
+      phone: Legg til et gyldig telefonnummer
+      url: Legg til en gyldig lenke
+  dataTableSearch:
+    button: Søk
+    helpText: Skriv minst {minSearchLength} tegn
+    idSearchHelpText: Skriv en Zetkin ID (kun tall)
+    placeholder: Søk
+    placeholderWithIdSearch: "Søk - bruk # for Zetkin IDer, skriv f.eks #123"
+    title: Søk
+  dataTableSorting:
+    addButton: Legg til sorteringskolonne
+    button: Sortér
+    hint: "Hint: hold inn {shiftKeyIcon} mens du trykker på flere kolonner"
+    title: Sortér
+  dateRange:
+    draft: Ingen startdato
+    end: Slutt
+    finite: Fra {start, date, medium} til {end, date, medium}
+    indefinite: Fra {start, date, medium} og fremover
+    invisible: Ikke synlig eller planlagt
+    start: Start
+  dateSpan:
+    multiDayEndsToday: "{startDate} - i dag"
+    multiDayToday: I dag - {endDate}
+    singleDayToday: I dag
+  duration:
+    days: "{n, plural, =1 {en dag} other {# dager}}"
+    h: "{n}t"
+    ms: "{n}m"
+  editTextInPlace:
+    tooltip:
+      edit: Klikk for å redigere
+      noEmpty: Dette feltet kan ikke være tomt
+  editableImage:
+    add: Klikk for å legge til bilde
+  futures:
+    errorLoading: Kunne ikke laste dataen
+  header:
+    collapseButton:
+      collapse: Skjul
+      expand: Vis
+  imageSelectDialog:
+    instructions: Trekk og slipp et bilde eller en fil, eller klikk for å velge
+  lists:
+    showMore: Vis mer...
+  orgScopeSelect:
+    orgPlaceholder: Velg organisasjoner
+    orgSelectionLabel: "{count} valgt"
+    scope:
+      all: "{org} og alle underorganisasjoner"
+      specific: Spesifikke organisasjoner
+      suborgs: Bare underorganisasjoner
+      this: Bare {org}
+  organizeSidebar:
+    allOrganizations: Alle organisasjonsledd
+    areas: Steder
+    filter: Skriv for å filtrere
+    home: Hjem
+    journeys: Planer
+    people: Folk
+    projects: Prosjekter
+    search: Søk
+    settings: Innstillinger
+    signOut: Logg ut
+    tags: Etiketter
+    userSettings: Innstillinger
+  personGridEditCell:
+    keepTyping: Fortsett å skrive..
+    noResult: Ingen funnet
+    otherPeople: Andre folk
+    restrictedMode: Kan ikke redigeres i delte lister
+    searchResults: Søkeresultater
+  personSelect:
+    keepTyping: Fortsett å skrive eller start søk
+    noResult: Ingen person ble funnet
+    search: Skriv for å søke
+    searching: Søker...
+  snackbar:
+    error: Å nei! Noe gikk galt.
+    success: Suksess!
+    warning: Advarsel!
+  speedDial:
+    createCampaign: Nytt prosjekt
+    createEvent: Nytt arrangement
+    createTask: Nytt innhold
+    requestError: Noe gikk galt
+  submitOrCancel:
+    cancel: Avbryt
+    submit: Lagre
+  suffixedNumber:
+    thousands: "{num}K"
+  timeSpan:
+    multiDayEndsToday: "{startDate}, {start} - I dag, {end}"
+    multiDayToday: I dag, {start} - {endDate}, {end}
+    singleDayAllDay: Hele dagen i dag
+    singleDayToday: I dag, {start} - {end}
+  timeline:
+    addNotePlaceholder: Skriv her for å legge inn et notat
+    email:
+      headers:
+        cc: Cc
+        from: Fra
+        to: Til
+    expand: vis hele tidslinja
+    fileUploadErrorMessage: Kunne ikke legge til notat, det er kanskje for langt.
+    filter:
+      byType:
+        all: Alle
+        files: Filer
+        journey: Plan
+        milestones: Oppfølginger
+        notes: Notater
+        people: Folk
+        tags: Etiketter
+      filterSelectLabel: "Vis: {filter}"
+      warning: Tidslinja er filtrert, klikk her for å fjerne filter.
+    updates:
+      any:
+        addtags: "{actor} la til {count, plural, =1 {en etikett} other {# etiketter}}"
+        removetags: "{actor} fjernet {count, plural, =1 {en etikett} other {# etiketter}}"
+      journeyinstance:
+        addassignee: "{actor} tildelte kontaktperson {assignee}"
+        addnote: "{actor} la til et notat"
+        addsubject: "{actor} la til {subject}"
+        close:
+          header: "{actor} lukket planen"
+        convert: "{actor} konverterte fra {oldLabel} til {newLabel}"
+        create:
+          header: "{actor} startet en ny plan"
+        open: "{actor} åpnet planen på nytt"
+        removeassignee: "{actor} fjernet {assignee}"
+        removesubject: "{actor} fjernet {subject}"
+        update:
+          readMore: Les mer
+          summary: "{actor} redigerte oppsummeringen"
+          title: "{actor} redigerte tittelen"
+        updatemilestone:
+          complete: "{actor} fullførte oppfølging"
+          deadline: "{actor} oppdaterte en oppfølgingsfrist"
+          deadlineRemove: frist ble fjernet
+          deadlineUpdate: "Frist: {datetime}"
+          incomplete: "{actor} merket en oppfølging som ikke fullført"
+  timezonePicker:
+    placeholder: Skriv for å søke etter sted
+    timezone: Tidssone

@@ -1,6 +1,9 @@
 projects:
   - languages:
       - en
+      - da
+      - de
+      - nn
       - sv
     messages:
       format: yaml
