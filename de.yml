@@ -2524,6 +2524,8 @@ feat:
         toggle:
           columnTitle: Kontrollkästchen
           description: Häkchen setzen
+          keywords: I'm the keywords. Words. Keys. Keys. Words. Keys for words. Words for
+            keys.
           title: Kontrollkästchen
       commonHeaders:
         email: Email
