@@ -3,8 +3,8 @@ projects:
       - en
       - sv
     messages:
-      format: ts
-      path: src
+      format: yaml
+      path: .
     path: .
     translations:
       path: .
