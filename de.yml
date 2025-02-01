@@ -1,5 +1,6 @@
 core:
   err404:
+    iveLostMyPants: ICH HABE MEINE PANTSER FÖRLOREN
     backToHomePage: zurück zur Startseite
     pageNotFound: Seite nicht gefunden
   home:
